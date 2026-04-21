@@ -1,25 +1,35 @@
 const term = "LangDynamic";
 
-(async () => {
-    const resources = performance.getEntriesByType("resource")
-        .filter(r => r.name.endsWith(".js"));
+const seen = new Set();
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-    for (const r of resources) {
-        try {
-            const res = await fetch(r.name);
-            const text = await res.text();
+await (async () => {
+    for (let i = 0; i < 3; i++) {
+        const resources = performance.getEntriesByType("resource")
+            .filter(r => r.name.endsWith(".js"));
 
-            if (text.includes(term)) {
-                const blob = new Blob([text], { type: "application/javascript" });
-                const a = document.createElement("a");
-                a.href = URL.createObjectURL(blob);
-                a.download = r.name.split("/").pop();
-                a.click();
+        for (const r of resources) {
+            try {
+                const res = await fetch(r.name);
+                const text = await res.text();
 
-                console.log("Saved:", r.name);
+                if (text.includes(term)) {
+                    if (seen.has(r.name)) {
+                        continue;
+                    }
+                    seen.add(r.name);
+                    const blob = new Blob([text], { type: "application/javascript" });
+                    const a = document.createElement("a");
+                    a.href = URL.createObjectURL(blob);
+                    a.download = r.name.split("/").pop();
+                    a.click();
+
+                    console.log("Saved:", r.name);
+                }
+            } catch (e) {
+                console.warn("Failed:", r.name);
             }
-        } catch (e) {
-            console.warn("Failed:", r.name);
         }
+        await sleep(2000);
     }
 })();
