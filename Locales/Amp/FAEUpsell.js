@@ -1,0 +1,4 @@
+var Roblox = Roblox || {};
+Roblox.LangDynamic = Roblox.LangDynamic || {};
+Roblox.LangDynamic["Amp.FAEUpsell"] = {"Modal.ExternalLink.Title":"Age check required","Modal.ExternalLink.ButtonStart":"Start age estimation","Modal.ExternalLink.Text":"Check your age to unlock Chat without filters and Party voice.","Modal.ExternalLink.ButtonCancel":"Cancel","Modal.Failed.Title":"Age check error","Modal.Failed.Text":"Something went wrong. Please try again later.","Modal.Failed.ButtonClose":"Close","Modal.Failed.ButtonRetry":"Retry","Modal.Loading.Text":"This may take a few moments. If you cancel, your age may not be checked.","Modal.Loading.ButtonCancel":"Cancel"};
+window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Amp.FAEUpsell");

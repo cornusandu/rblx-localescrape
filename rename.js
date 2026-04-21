@@ -17,7 +17,7 @@ fs.readdirSync(dir).forEach(file => {
     i++;
     const fullPath = path.join(dir, file);
     if (fullPath.endsWith(".js")) {
-        process.stdout.write(`[${i}/${nofiles}] staging/${file}`);
+        process.stdout.write(`[${i+1}/${nofiles}] staging/${file}`);
 
         const code = fs.readFileSync(fullPath, "utf8");
 
