@@ -1,25 +1,25 @@
-const term = "LangDynamic"; // <-- change this
+const term = "LangDynamic";
 
 (async () => {
-  const resources = performance.getEntriesByType("resource")
-    .filter(r => r.name.endsWith(".js"));
+    const resources = performance.getEntriesByType("resource")
+        .filter(r => r.name.endsWith(".js"));
 
-  for (const r of resources) {
-    try {
-      const res = await fetch(r.name);
-      const text = await res.text();
+    for (const r of resources) {
+        try {
+            const res = await fetch(r.name);
+            const text = await res.text();
 
-      if (text.includes(term)) {
-        const blob = new Blob([text], { type: "application/javascript" });
-        const a = document.createElement("a");
-        a.href = URL.createObjectURL(blob);
-        a.download = r.name.split("/").pop();
-        a.click();
+            if (text.includes(term)) {
+                const blob = new Blob([text], { type: "application/javascript" });
+                const a = document.createElement("a");
+                a.href = URL.createObjectURL(blob);
+                a.download = r.name.split("/").pop();
+                a.click();
 
-        console.log("Saved:", r.name);
-      }
-    } catch (e) {
-      console.warn("Failed:", r.name);
+                console.log("Saved:", r.name);
+            }
+        } catch (e) {
+            console.warn("Failed:", r.name);
+        }
     }
-  }
 })();
