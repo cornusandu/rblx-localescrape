@@ -2,7 +2,7 @@ const term = "LangDynamic";
 
 const seen = new Set();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-
+// reset with performance.clearResourceTimings() before reloading page
 await (async () => {
     for (let i = 0; i < 3; i++) {
         const resources = performance.getEntriesByType("resource")
