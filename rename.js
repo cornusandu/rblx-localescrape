@@ -45,7 +45,11 @@ const files = fs.readdirSync(dir);
 
             vm.createContext(sandbox);
 
-            vm.runInContext(code, sandbox);
+            try {
+                vm.runInContext(code, sandbox);
+            } catch (e) {
+                process.stdout.write(" -> skipped (error)\n");
+            }
 
             if (!sandbox.window.Roblox.LangDynamic || Object.keys(sandbox.window.Roblox.LangDynamic).length === 0) {
                 process.stdout.write(" -> skipped\n");

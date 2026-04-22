@@ -1958,6 +1958,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.ReceiveRobuxTransfer": "accept {amount} Robux from {username}",
     "Label.SendRobuxTransfer": "send {amount} Robux to {username}",
     "Heading.AcceptRobux": "Accept Robux",
+    "Heading.SendRobux": "Send Robux",
     "Description.AgeGroupUncapitalized": "Age group",
     "Heading.PartyAndPartyChat": "Party and Party chat",
     "Label.PartyChat": "Party chat",
@@ -1987,6 +1988,8 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
         "Friends marked as trusted can use chat without filters, Party voice on Roblox and live collaboration in Studio with your child. {linkStart}View Details.{linkEnd}",
     "Label.Subscriptions.FreeWithPlus": "Free With Plus",
     "Message.Subscriptions.PlusCancelBody":
-        'Are you sure you want to cancel? If you cancel, your benefits will end on {subscriptionExpirationDate}, including any private servers you had will no longer be free. \n\nBy clicking "Yes, Cancel", you agree to cancel your Roblox Subscription and that you will lose your benefits. You will be redirected back to your Subscriptions page. Please review when and how much your private servers will be charged.',
+        "Are you sure you want to cancel? If you cancel, your benefits will end on {subscriptionExpirationDate}, including any private servers you had will no longer be free.",
+    "Message.Subscriptions.PlusCancelBody2":
+        'By clicking "Yes, Cancel", you agree to cancel your Roblox Subscription and that you will lose your benefits. You will be redirected back to your Subscriptions page. Please review when and how much your private servers will be charged.',
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");

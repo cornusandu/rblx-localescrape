@@ -1,35 +1,15 @@
-const term = "LangDynamic";
+const urls = new Array();
 
-const seen = new Set();
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-// reset with performance.clearResourceTimings() before reloading page
-await (async () => {
-    for (let i = 0; i < 3; i++) {
-        const resources = performance.getEntriesByType("resource")
-            .filter(r => r.name.endsWith(".js"));
+for (const s of document.scripts) {
+    if (s.src && s.src.includes("js.rbxcdn.com")) urls.push(s.src);
+}
 
-        for (const r of resources) {
-            try {
-                const res = await fetch(r.name);
-                const text = await res.text();
-
-                if (text.includes(term)) {
-                    if (seen.has(r.name)) {
-                        continue;
-                    }
-                    seen.add(r.name);
-                    const blob = new Blob([text], { type: "application/javascript" });
-                    const a = document.createElement("a");
-                    a.href = URL.createObjectURL(blob);
-                    a.download = r.name.split("/").pop();
-                    a.click();
-
-                    console.log("Saved:", r.name);
-                }
-            } catch (e) {
-                console.warn("Failed:", r.name);
-            }
-        }
-        await sleep(2000);
+for (const r of performance.getEntriesByType("resource")) {
+    if ((r.initiatorType === "script" || r.name.endsWith(".js")) && r.name.includes("js.rbxcdn.com")) {
+        urls.push(r.name);
     }
-})();
+}
+
+const unique = [...new Set(urls)];
+
+console.error(unique.join('\n'));

@@ -184,5 +184,7 @@ Roblox.LangDynamic["Feature.Friends"] = {
     "Action.ShareQR": "Share QR",
     "Description.YouCanDoMoreWithTrustedFriends": "You can do more on Roblox with trusted friends. Manage this friend anytime from their profile.",
     "Label.NoConnectionYet": "{name} doesn’t have any connections yet.",
+    "Label.FriendsHintBold": "Let’s play!",
+    "Label.FriendsHintPlain": "Start by adding a friend.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Friends");
