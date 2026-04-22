@@ -1172,5 +1172,6 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Action.Last28Days": "Last 28 Days",
     "Action.Last90Days": "Last 90 Days",
     "Action.Last365Days": "Last 365 Days",
+    "Label.UpdateGroupSecuritySettings": "Update Security Settings",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");
