@@ -1,0 +1,40 @@
+name: Update README stats
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  run-js:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Run JS file
+        run: node scripts/updateReadme.js
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Save Changes
+        run: |
+          git add .
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            git diff --cached --quiet || git commit -m "Update README stats"
+          else
+            git diff --cached --quiet || git commit --amend --no-edit
+          fi
+          git push --force-with-lease
