@@ -40,5 +40,6 @@ Roblox.LangDynamic["Feature.BuyRobux"] = {
     "Label.ForYou": "For you",
     "Heading.RobuxPackages": "Robux packages",
     "Label.RobuxQuantity": "{quantity} Robux",
+    "Heading.StandardPackages": "Standard Packages",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.BuyRobux");

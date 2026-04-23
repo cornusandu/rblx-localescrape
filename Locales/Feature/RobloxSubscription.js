@@ -108,5 +108,6 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Label.Savings.RobuxSent": "Robux sent to friends",
     "Label.Savings.PercentOff": "{discountPercent} off",
     "Label.PlusBenefitDiscount": "Plus benefit ({discountPercent}% off)",
+    "Label.PickAPlan": "Pick a plan",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");
