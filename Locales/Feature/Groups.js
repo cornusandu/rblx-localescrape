@@ -38,7 +38,7 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Action.Close": "Close",
     "Action.Exile": "Exile",
     "Action.Cancel": "Cancel",
-    "Action.ReportAbuse": "Report abuse",
+    "Action.ReportAbuse": "Report Abuse",
     "Message.DefaultError": "An error occurred.",
     "Message.LeaveGroupError": "Unable to leave community.",
     "Message.MakePrimaryError": "Unable to make primary community.",
