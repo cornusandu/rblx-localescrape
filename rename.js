@@ -49,6 +49,7 @@ const files = fs.readdirSync(dir);
                 vm.runInContext(code, sandbox);
             } catch (e) {
                 process.stdout.write(" -> skipped (error)\n");
+                continue;
             }
 
             if (!sandbox.window.Roblox.LangDynamic || Object.keys(sandbox.window.Roblox.LangDynamic).length === 0) {

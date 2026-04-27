@@ -37,6 +37,7 @@ Roblox.LangDynamic["Feature.GameDetails"] = {
     "Label.Favorites": "Favorites",
     "Label.ExperimentalWarning":
         "{aTagStartWithHref}{ExperimentalGamesInfoLink}{hrefEnd}This experience may not function as intended.{aTagEnd} The developer needs to update the experience.",
+    "Action.Continue": "Continue",
     "Label.GenreAll": "All",
     "Label.GenreBuilding": "Building",
     "Label.LabelGenreHorror": "Horror",

@@ -40,6 +40,15 @@ Roblox.LangDynamic["Feature.BuyRobux"] = {
     "Label.ForYou": "For you",
     "Heading.RobuxPackages": "Robux packages",
     "Label.RobuxQuantity": "{quantity} Robux",
+    "Action.SendRobux": "Send",
+    "Label.PendingTransfersSummary.Singular": "1 person sent you {robux} Robux",
+    "Action.AcceptTransfer": "Accept",
+    "Label.SearchByUsername": "Search by username",
+    "Label.SearchUsername": "Search username",
+    "Label.NoResultsFound": "No results found",
+    "Label.PendingTransfersSummary.Plural": "{count} people sent you {robux} Robux",
+    "Heading.PendingTransfers": "Pending Robux",
+    "Heading.SendRobux": "Send Robux",
     "Heading.StandardPackages": "Standard Packages",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.BuyRobux");

@@ -24,5 +24,7 @@ Roblox.LangDynamic["Feature.Denied"] = {
     "Denied.CantVerify": "You can't verify right now",
     "Denied.Delayed.BodyWithTrustedSession":
         "Try this action from a {linkStart}trusted device{linkEnd}. If you can’t, we’ll need you to wait {numberOfUnits} {unitOfTime} for your security.",
+    "Denied.Header.Maintenance": "Maintenance In Progress",
+    "Denied.Body.MaintenanceInProgress": "We’re currently upgrading the security protocol on this feature, try again in 10 minutes.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Denied");
