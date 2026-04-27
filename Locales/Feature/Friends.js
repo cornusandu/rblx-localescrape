@@ -100,7 +100,7 @@ Roblox.LangDynamic["Feature.Friends"] = {
     "Label.MutualConnections": "{numConnections} mutual Connections",
     OneMutualConnection: "is a mutual Connection",
     "Action.ConnectionRequestSent": "Connection Request Sent",
-    "Label.ConnectionRequest": "Connection request",
+    "Label.ConnectionRequest": "Friend request",
     "Action.ConnectionAdded": "Connection Added",
     "Heading.UsersConnections": "{username}'s Connections",
     "Label.WebMutualConnection": "{mutualConnectionsCount, plural, =0 {# mutual Connections} =1 {# mutual Connection} other {# mutual Connections}}",
@@ -186,5 +186,6 @@ Roblox.LangDynamic["Feature.Friends"] = {
     "Label.NoConnectionYet": "{name} doesn’t have any connections yet.",
     "Label.FriendsHintBold": "Let’s play!",
     "Label.FriendsHintPlain": "Start by adding a friend.",
+    "Description.TrustedFriendsRequestModalBody": "Only add people you know and trust. Manage this friend anytime from their profile.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Friends");

@@ -205,5 +205,7 @@ Roblox.LangDynamic["Feature.Profile"] = {
     "Label.PlayingExperience": "playing <b>{experienceName}</b>",
     "Message.RemoveTrustedFriendError": "Unable to remove trusted friend",
     "Label.NoFriendsYet": "{username} doesn’t have any friends yet.",
+    ReportAbuse: "Report abuse",
+    "Action.ReportAbuse": "Report abuse",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Profile");
