@@ -124,7 +124,7 @@ Roblox.LangDynamic["Feature.NotApproved"] = {
     "Label.ParentReactivationNoticeUA": "Your parent or legal guardian must help you re-activate this account.",
     "Heading.AccountBanned": "Account Banned",
     "Description.AppealWithPortal": "To request an appeal visit {startLink}Violations & Appeals{endLink}.",
-    "Label.ConsoleDeviceNoticeUA": "Please log in to Roblox.com on a separate device to begin reactivating your account.",
+    "Label.ConsoleDeviceNoticeUA": "Please sign in to Roblox.com on a separate device to begin reactivating your account.",
     "Label.MessageToUser.AltConsequence": "You created or used an account to avoid an enforcement action taken against another account",
     "Label.OffensiveItem.AltConsequence": "Determined from your account information, such as your account email, phone number, or other information",
     "Description.AutomatedDetectionAutomatedDecision":
@@ -405,5 +405,9 @@ Roblox.LangDynamic["Feature.NotApproved"] = {
     "Label.Sublabel.AdvertisingOnlineServicesLiveAi": "Online Services - Live AI",
     "Label.Sublabel.AdvertisingDirectingOffPlatformPermittedUrls": "Directing Users Off Platform - Permitted",
     "Label.Sublabel.AdvertisingDirectingOffPlatformGeneral": "Directing Users Off Platform",
+    "Description.LinkedAccounts": "Consequences are based on your behavior across all linked accounts.",
+    "Label.Sublabel.TextScrubbed": "inappropriate experience name or description",
+    "Label.Sublabel.TextScrubbed.Note":
+        "Your experience name or experience description was found to be inappropriate. Both have been changed to a placeholder. You can create a new name and description in Creator Hub or Studio.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.NotApproved");

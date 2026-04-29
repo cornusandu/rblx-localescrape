@@ -507,6 +507,6 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.Props": "Props",
     "Label.HandArmAccessory": "Hand & Arm Accessory",
     "Label.FullMask": "Full Mask",
-    "Label.Subtotal": "Subtotal (${count} ${itemWord})",
+    "Label.Subtotal": "Subtotal ({count} {itemWord})",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Catalog");

@@ -1081,7 +1081,7 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Message.AcceptFriendRequestError": "Unable to accept friend request.",
     "Message.RemoveFriendError": "Unable to unfriend user.",
     "Error.FailedToJoinExperience": "Failed to join experience. Please try again.",
-    "Action.LogInToAddConnection": "Log in to add",
+    "Action.LogInToAddConnection": "Sign in to add",
     "Action.SignUpToAddConnection": "Sign up to add",
     "Action.EditProfile": "Edit Profile",
     "Action.EditAvatar": "Edit Avatar",
@@ -1173,5 +1173,12 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Action.Last90Days": "Last 90 Days",
     "Action.Last365Days": "Last 365 Days",
     "Label.UpdateGroupSecuritySettings": "Update Security Settings",
+    "Label.ViewCommunityAnalytics": "View community analytics",
+    "Action.SaveDraft": "Save Draft",
+    "Action.Publish": "Publish",
+    "Message.UpdateSecuritySettingsVerificationLevel": "{actor} changed the verification level requirement",
+    "Message.UpdateSecuritySettingsAccountTenure": "{actor} changed the account age requirement",
+    "Message.UpdateSecuritySettingsSlowmode": "{actor} changed the slowmode requirement",
+    "Message.UpdateSecuritySettingsMemberListVisibility": "{actor} changed the member list visibility",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");

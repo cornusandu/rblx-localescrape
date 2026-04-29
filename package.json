@@ -1,0 +1,15 @@
+{
+  "name": "rblx-localescrape",
+  "version": "1.0.0",
+  "description": "This github repo contains a full list of the locale files used by the Roblox website. These locale files can help reveal upcoming updates before they are publicly announced.",
+  "main": "./rename.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.29-only",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "puppeteer": "^24.42.0"
+  }
+}

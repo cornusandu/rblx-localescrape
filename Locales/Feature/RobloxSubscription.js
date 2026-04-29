@@ -4,15 +4,15 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Action.Subscribe": "Subscribe",
     "Label.Blackbird": "Roblox Plus",
     "Description.Benefit.DiscountAnnualSavingsEstimate": "Save up to {amount} a year",
-    "Description.Benefit.DiscountBase": "{discountPercent} off in-game items, avatars, and more",
+    "Description.Benefit.DiscountBase": "{discountPercent} off in-game items, avatars and more",
     "Description.Benefit.DiscountNext":
         "{discountPercent} off after {discountPeriodUnit, select,\n  Month {{discountPeriodCount, plural, =1 {{discountPeriodCount} month} other {{discountPeriodCount} months}}}\n  Week  {{discountPeriodCount, plural, =1 {{discountPeriodCount} week}  other {{discountPeriodCount} weeks}}}\n  Year  {{discountPeriodCount, plural, =1 {{discountPeriodCount} year}  other {{discountPeriodCount} years}}}\n  other {{discountPeriodCount, plural, one {{discountPeriodCount} {discountPeriodUnit}} other {{discountPeriodCount} {discountPeriodUnit}s}}}\n} of {productName}",
     "Description.Benefit.RobuxTransfers": "Send Robux for free",
-    "Description.Benefit.TradeResellItems": "Trade and resell avatar items",
-    "Description.Benefit.PublishItems": "Publish avatar items",
+    "Description.Benefit.TradeResellItems": "Trade and resell limited items",
+    "Description.Benefit.PublishItems": "Publish games and avatar items",
     "Description.Benefit.DiscountAnnualSavingsEstimateDisclaimer": "Based on your past purchases",
     "Title.Benefits": "Why join {productShort}?",
-    "Description.BillingInfo": "{price} a {periodType, select,\n  Week {week}\n  Month {month}\n  Year {year}\n  other {periodType}\n}",
+    "Description.BillingInfo": "{price}/{periodType, select,\n  Week {week}\n  Month {month}\n  Year {year}\n  other {periodType}\n}",
     "Description.SubscribeLegalDisclaimer": "Legal text placeholder. Subscription renews automatically unless canceled. See full terms for details.",
     "Description.WeeklyPrice": "{price} a week",
     "Description.AnnualPrice": "{price} a year",
@@ -42,7 +42,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Label.BlackbirdShort": "Plus",
     "Description.EntrypointDisabled": "This subscription isn’t available on this platform.",
     "Description.BillingInfoWithFreeTrialOffer":
-        "{boldTagStart}{trialPeriod} {trialPeriodType, select, \n  Week {week}\n  Month {month}\n  Year {year}\n  other {trialPeriodType}\n} free{boldTagEnd}, then {price} / {periodType, select,\n  Week {week}\n  Month {month}\n  Year {year}\n  other {periodType}\n}",
+        "{boldTagStart}{trialPeriod} {trialPeriodType, select, \n  Week {week}\n  Month {month}\n  Year {year}\n  other {trialPeriodType}\n} free{boldTagEnd}, then {price}/{periodType, select,\n  Week {week}\n  Month {month}\n  Year {year}\n  other {periodType}\n}",
     "Label.Status.Freetrial": "Free trial",
     "Action.TrialSubscription": "Get free trial",
     "Action.Customize": "Customize",
@@ -75,7 +75,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.Benefit.DiscountNextSubtitle": "Double your discount and lock it in",
     "Description.Benefit.RobuxTransfersSubtitle": "Transfers may need parental approval",
     "Description.Benefit.TradeResellItemsSubtitle": "Build your collection of rare avatars",
-    "Description.Benefit.PublishItemsSubtitle": "Reach millions of players on Marketplace",
+    "Description.Benefit.PublishItemsSubtitle": "Reach millions of players",
     "Description.Benefit.PrivateServers": "Free and unlimited private servers",
     "Description.Benefit.PrivateServersSubtitle": "Choose who you play with",
     "Title.PurchasePromoHeadline": "Our best deal.\u2028Unlock 20% off.",
@@ -111,5 +111,33 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Label.PickAPlan": "Pick a plan",
     "Label.RobuxAllowance": "{amount}/mo.",
     "Label.Free": "Free",
+    "Description.Benefit.RobuxAllowance": "{amount} Robux every month",
+    "Description.Benefit.AllPlus": "Includes all Plus benefits",
+    "Description.Benefit.BonusRobux": "Up to 25% bonus Robux every time",
+    "Description.Benefit.PublishItemsExpandedTitle": "Publishing and selling",
+    "Description.Benefit.DiscountStaySubscribedToKeep": "Stay subscribed to keep",
+    "Label.Status.AutoRenewOff": "Auto-renew off",
+    "Description.Benefit.DiscountBaseExpandedBody":
+        "Save on VIP passes, cosmetic skins, key bundles and more. Discounts do not apply to items over 1M Robux, items that are resold, ads credit, UGC publishing fees, or group fees (name or roles).",
+    "Description.Benefit.DiscountStaySubscribedToGet": "Stay subscribed to get",
+    "Description.Benefit.DiscountAllPurchases": "{discountPercent} off all purchases",
+    "Description.Benefit.DiscountBaseExpandedTitle": "10% off from today",
+    "Description.Benefit.DiscountNextExpandedTitle": "20% off in month 3",
+    "Description.Benefit.DiscountNextExpandedBody":
+        "Keep your subscription for 2 full months and your discount jumps to 20%, so your Robux go even further on the same items starting in month 3.",
+    "Description.Benefit.PrivateServersExpandedTitle": "Free private servers",
+    "Description.Benefit.PrivateServersExpandedBody":
+        "Create as many private servers as you want so you can play only with friends across supported games at no extra cost.",
+    "Description.Benefit.RobuxTransfersExpandedTitle": "Free Robux Transfers",
+    "Description.Benefit.RobuxTransfersExpandedBody":
+        "Instantly transfer Robux to other users without paying any fees on either side. To help keep transfers safe, there are daily transfer limits of up to 1000 Robux a month - which are subject to change. Additionally parent or caregiver approval is required every time users under 18 send or receive Robux.",
+    "Description.Benefit.TradeResellItemsExpandedTitle": "Trading and reselling",
+    "Description.Benefit.TradeResellItemsExpandedBody":
+        "Upgrade your looks, chase rare pieces, and grow your collection over time instead of always buying new.",
+    "Description.Benefit.PublishItemsExpandedBody":
+        "Whether you make games or avatar items, gain publishing rights. Check off eligibility criteria to reach players on Roblox Kids and Roblox Select accounts, or monetize your designs by publishing and selling avatar items on Marketplace.",
+    "Label.Ok": "OK",
+    "Title.PurchasePromoHeadlinePart1": "Our best deal.",
+    "Title.PurchasePromoHeadlinePart2": "Unlock 20% off.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");

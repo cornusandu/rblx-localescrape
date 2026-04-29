@@ -484,5 +484,18 @@ Roblox.LangDynamic["Feature.Parents"] = {
     "Title.VPCNotRequired": "Permission no longer required",
     "Description.AddTrustedFriendConsent.AllFeatures":
         "This allows your child to use chat without filters, Party voice on Roblox and live studio collaboration in Studio with this person. Make sure this is a person you know and trust. {linkStart}View Details{linkEnd}.",
+    "Description.ApproveExperienceEmailSubject": "Review your child's request to join {experienceName}",
+    "Description.ApproveExperienceRequest":
+        'Your child, {childUsername}, would like to join "{experienceName}". You can allow games that your child doesn\'t have access to, with some restrictions.',
+    "Description.VPCEmailApproveExperiencePermissionNeeded":
+        'Your child needs a parent or guardian\'s permission to join "{experienceName}" on their Roblox account.',
+    "Description.VPCRequestApproveExperienceMild":
+        'This game has a "Mild" content maturity rating, and it may contain repeated mild violence, heavy unrealistic blood, mild crude humor, and/or repeated mild fear.',
+    "Description.VPCRequestApproveExperienceModerate":
+        'This game has a "Moderate" content maturity rating, and it may contain repeated moderate violence, light realistic blood, moderate crude humor, unplayable gambling content, and/or moderate fear.',
+    "Description.VPCRequestApproveExperienceRestricted":
+        'This game has a "Restricted" content maturity rating, and it may contain strong violence, heavy realistic blood, moderate crude humor, romantic themes, unplayable gambling content, strong language, the presence of alcohol, and/or moderate fear.',
+    "Description.VPCRequestApproveExperienceMinimal":
+        'This game has a "Minimal" content maturity rating, and it may contain occasional mild violence, light unrealistic blood, and/or occasional mild fear.',
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Parents");

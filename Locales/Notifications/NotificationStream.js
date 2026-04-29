@@ -267,6 +267,9 @@ Roblox.LangDynamic["Notifications.NotificationStream"] = {
         "Hello,{linebreak}{linebreak}We delisted your asset (asset ID {ContentID}) because it may have contained a trademark owned by {Rightsholder} that you do not have permission to use. If you believe that this determination was in error, then you may appeal it here: {ModerationPortalURL}.{linebreak}{linebreak}Roblox respects the intellectual property rights of others and requires that all members of the Roblox community do the same, as stated in our {RobloxTermsOfUseURL} and {RobloxCommunityStandardsURL}. Creators are responsible for the assets they create, and group owners are responsible for the assets uploaded to their groups. Please review all of your content to ensure that you have the proper right or permission. If you would like to proactively archive any assets, then follow the steps outlined here: {RobloxAssetsURL}.{linebreak}{linebreak}Thank you,{linebreak}Roblox Support Team",
     "Heading.GameContentScrubbed": "Game Content Scrubbed",
     "Description.GameContentScrubbed": "Your game contains violative text flagged our text filter. Please rename your game appropriately.",
+    "Heading.USNCII.illegalContentReportNewEmail": "NCII Removal Request Received",
+    "Description.USNCII.illegalContentReportNewEmail":
+        "Thank you for submitting a removal request for nonconsensual intimate imagery.\nWe have received your request and it is now pending review. Our team will assess the information you provided and take action on valid requests within 48 hours.\nTicket ID: {ticketID}\nIf you would like to submit an additional request, please visit: https://www.roblox.com/non-consensual-intimate-imagery-removal-request",
 };
 window.Roblox &&
     window.Roblox.BundleDetector &&
