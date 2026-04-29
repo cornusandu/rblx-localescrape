@@ -1985,6 +1985,11 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ChangeParentalRecoveryEmailPrivacyPolicy":
         "Your parent may receive emails related to account recovery, security and payments. This account email will not change until the new email has been verified. {linkStart}Privacy policy.{linkEnd}",
     "Label.NoOneLowercase": "no one",
+    "Heading.ApprovedExperiences": "Allowed Experiences",
+    "Description.ApprovedExperiences": "Games you allow your child to play, even when the content rating doesn't match your child's age.",
+    "Description.NoApprovedExperiences": "No allowed experiences yet",
+    "Action.RemoveFromApproved": "Remove from Allowed experiences",
+    "Description.RevokeApprovalSuccess": "{experienceName} has been removed from Allowed experiences.",
     "Description.Parent.TrustedFriendsAllFeaturesDisclaimer":
         "Friends marked as trusted can use chat without filters, Party voice on Roblox and live collaboration in Studio with your child. {linkStart}View Details.{linkEnd}",
     "Label.Subscriptions.FreeWithPlus": "Free With Plus",
@@ -1999,5 +2004,6 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.DownloadOnTheAppStore": "Download on the App Store",
     "Label.GetItOnGooglePlay": "Get it on Google Play",
     "Label.FreeTrial": "Free trial",
+    "Label.Subscriptions.PaypalPayment": "Paypal",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");
