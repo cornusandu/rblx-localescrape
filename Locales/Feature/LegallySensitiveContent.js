@@ -23,6 +23,10 @@ Roblox.LangDynamic["Feature.LegallySensitiveContent"] = {
     "Description.PhoneNumberDiscoverabilityConsent.FriendsRename": "Help people who already have your phone number add you as a friend on Roblox.",
     "Description.PhoneNumberDiscoverabilityUpsellConsent.FRnm": "Help people who have your phone number add you as a friend on Roblox",
     "Description.ParentSide.PhoneNumberDiscoverabilityConsent.TFR": "Help people who already have your child's phone number add them as a friend on Roblox.",
+    "Label.LSC.NewsAndAnnouncements": "Announcements, updates and offers",
+    "Description.LSC.ChooseNotificationTypes": "Choose what type of notifications you get.",
+    "Label.LSC.EmailChannelLabel": "Email",
+    "Description.LSC.TurnOnEmail": "Turn on email notifications",
 };
 window.Roblox &&
     window.Roblox.BundleDetector &&

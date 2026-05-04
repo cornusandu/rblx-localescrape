@@ -364,6 +364,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
         "After purchasing, original sales enter a hold for up to {purchaseDays} days. The item can only be resold after this holding period ends and resales will have a hold of up to {resaleDays} days. Only premium users can resell items.",
     "Message.HoldingPolicyL1":
         "Purchases from resale will have a hold of up to {days} days. The item can only be resold after this holding period ends. Only premium users can resell items.",
+    "Label.InSingleExperience": "In Experience",
     "Label.SaveAsCharacter": "Save as a Character",
     "Label.OriginalUnavailable": "Original is currently unavailable for purchase",
     "Label.TotalItems": "Total: {itemCount} items",
@@ -508,5 +509,6 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.HandArmAccessory": "Hand & Arm Accessory",
     "Label.FullMask": "Full Mask",
     "Label.Subtotal": "Subtotal ({count} {itemWord})",
+    "Label.Backgrounds": "Backgrounds",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Catalog");

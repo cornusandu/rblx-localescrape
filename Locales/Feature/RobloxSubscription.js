@@ -6,7 +6,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.Benefit.DiscountAnnualSavingsEstimate": "Save up to {amount} a year",
     "Description.Benefit.DiscountBase": "{discountPercent} off in-game items, avatars and more",
     "Description.Benefit.DiscountNext":
-        "{discountPercent} off after {discountPeriodUnit, select,\n  Month {{discountPeriodCount, plural, =1 {{discountPeriodCount} month} other {{discountPeriodCount} months}}}\n  Week  {{discountPeriodCount, plural, =1 {{discountPeriodCount} week}  other {{discountPeriodCount} weeks}}}\n  Year  {{discountPeriodCount, plural, =1 {{discountPeriodCount} year}  other {{discountPeriodCount} years}}}\n  other {{discountPeriodCount, plural, one {{discountPeriodCount} {discountPeriodUnit}} other {{discountPeriodCount} {discountPeriodUnit}s}}}\n} of {productName}",
+        "{discountPercent} off these items after {discountPeriodUnit, select,\n  Month {{discountPeriodCount, plural, =1 {{discountPeriodCount} month} other {{discountPeriodCount} months}}}\n  Week  {{discountPeriodCount, plural, =1 {{discountPeriodCount} week}  other {{discountPeriodCount} weeks}}}\n  Year  {{discountPeriodCount, plural, =1 {{discountPeriodCount} year}  other {{discountPeriodCount} years}}}\n  other {{discountPeriodCount, plural, one {{discountPeriodCount} {discountPeriodUnit}} other {{discountPeriodCount} {discountPeriodUnit}s}}}\n}",
     "Description.Benefit.RobuxTransfers": "Send Robux for free",
     "Description.Benefit.TradeResellItems": "Trade and resell limited items",
     "Description.Benefit.PublishItems": "Publish games and avatar items",
@@ -36,7 +36,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Label.Loading": "Loading",
     "Description.ExclusiveBenefits": "More fun for less Robux. Subscribe to Roblox Plus.",
     "Title.BenefitsUnlocked": "Benefits unlocked",
-    "Description.Welcome": "With Roblox Plus, you can now make your dollar go further.",
+    "Description.Welcome": "With Roblox Plus, you can now make your Robux go further.",
     "Action.OK": "OK",
     "Title.Welcome": "Welcome to {productShort}!",
     "Label.BlackbirdShort": "Plus",
@@ -130,7 +130,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
         "Create as many private servers as you want so you can play only with friends across supported games at no extra cost.",
     "Description.Benefit.RobuxTransfersExpandedTitle": "Free Robux Transfers",
     "Description.Benefit.RobuxTransfersExpandedBody":
-        "Instantly transfer Robux to other users without paying any fees on either side. To help keep transfers safe, there are daily transfer limits of up to 1000 Robux a month - which are subject to change. Additionally parent or caregiver approval is required every time users under 18 send or receive Robux.",
+        "Instantly transfer Robux to other users without paying any fees on either side. To help keep transfers safe, there are transfer limits of up to 1000 Robux a month - which are subject to change. Additionally parent or caregiver approval is required every time users under 18 send or receive Robux.",
     "Description.Benefit.TradeResellItemsExpandedTitle": "Trading and reselling",
     "Description.Benefit.TradeResellItemsExpandedBody":
         "Upgrade your looks, chase rare pieces, and grow your collection over time instead of always buying new.",
@@ -139,5 +139,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Label.Ok": "OK",
     "Title.PurchasePromoHeadlinePart1": "Our best deal.",
     "Title.PurchasePromoHeadlinePart2": "Unlock 20% off.",
+    "Description.SavingsDataDelay": "All data shown here is delayed by 1 day",
+    "Label.MonthlyPrice": "{amount}/month",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");
