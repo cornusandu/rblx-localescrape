@@ -11,9 +11,13 @@ const TargetUrlList = [
 	"/trades",
 	"/communities",
 	"/upgrades/robux?ctx=navpopover",
-	"/transactions"
+	"/transactions",
+	"/my/account#!/info",
+	"/plus",
+	"https://about.roblox.com/newsroom",
+	"/giftcards-us"
 ]
-.map(u => "https://www.roblox.com" + u);
+.map(u => u.startsWith('https') ? u : "https://www.roblox.com" + u);
 
 const urls = new Set();
 

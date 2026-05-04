@@ -1,6 +1,6 @@
 # Roblox Locale File List
 This github repo contains a full list of the locale files used by the Roblox website. These locale files can help reveal upcoming updates before they are publicly announced.
 
-As of 5/4/2026, **97** locale files are currently being tracked.
+As of 5/4/2026, **108** locale files are currently being tracked.
 
-This repository was last updated on 5/4/2026, at 09:03 AM UTC.
+This repository was last updated on 5/4/2026, at 03:49 PM UTC.
