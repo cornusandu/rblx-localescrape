@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const { get_config } = require('./configs');
 
 (async () => {
 	const browser = await puppeteer.launch({

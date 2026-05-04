@@ -367,5 +367,6 @@ Roblox.LangDynamic["Feature.Avatar"] = {
     "Label.FullMasks": "Full Masks",
     "Label.HandAndArm": "Hand & Arm",
     "Heading.BuyItem": "Buy Item",
+    "Backgrounds.Title": "Backgrounds",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Avatar");

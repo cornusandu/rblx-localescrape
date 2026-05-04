@@ -1180,5 +1180,7 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Message.UpdateSecuritySettingsAccountTenure": "{actor} changed the account age requirement",
     "Message.UpdateSecuritySettingsSlowmode": "{actor} changed the slowmode requirement",
     "Message.UpdateSecuritySettingsMemberListVisibility": "{actor} changed the member list visibility",
+    "Action.NewPosts": "New Posts",
+    "Action.NewComments": "New Comments",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");

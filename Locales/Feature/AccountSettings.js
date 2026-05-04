@@ -2005,5 +2005,13 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.GetItOnGooglePlay": "Get it on Google Play",
     "Label.FreeTrial": "Free trial",
     "Label.Subscriptions.PaypalPayment": "Paypal",
+    "Label.Subscriptions.SubscriptionBenefits": "Benefits",
+    "Heading.RequestAccountData": "Request Account Data",
+    "Description.RequestAccountData": "Get a copy of the information linked to your account.",
+    "Description.RequestAccountDataConfirmation":
+        "We’ll send the data to {recipientEmail} and your message inbox. You can only send 1 request at a time. {openDetailsTag}View details{closeDetailsTag}",
+    "Label.RequestAccountDataConfirmation": "Request account data",
+    "Label.RequestAccountDataReceived": "We're processing your request",
+    "Description.RequestAccountDataReceived": "You'll receive an email when your data is ready.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");

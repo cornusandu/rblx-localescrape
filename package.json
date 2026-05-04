@@ -4,12 +4,20 @@
   "description": "This github repo contains a full list of the locale files used by the Roblox website. These locale files can help reveal upcoming updates before they are publicly announced.",
   "main": "./rename.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "node download.js",
+    "login": "node logIntoRoblox.js",
+    "rename": "node rename.js",
+    "count": "node count.js",
+    "getall": "node getUrlList.js",
+    "clean": "rmdir-cli staging/"
   },
   "author": "",
   "license": "GPL-3.29-only",
   "dependencies": {
     "dotenv": "^17.4.2",
     "puppeteer": "^24.42.0"
+  },
+  "devDependencies": {
+    "rmdir-cli": "^2.0.6"
   }
 }
