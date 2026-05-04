@@ -159,7 +159,7 @@ Roblox.LangDynamic["Feature.Transactions"] = {
     "Description.PendingRobuxLicensingPayment": "Pending Robux from Licensing Payout",
     "Description.CFT": "Commission from Transfer",
     "Message.SalesRefundInfo": "Refunds and reversals remove the original transaction and are not recorded separately. Commissions are excluded.",
-    "Label.CurrencyTransfers": "Currency Transfers",
+    "Label.CurrencyTransfers": "Robux Transfers",
     "Description.TransferSend": "Sent Robux to {user}.",
     "Description.RecieveTransfer": "Received Robux from {user}.",
     "Description.SendRefund": "Unable to send Robux to {user}.",

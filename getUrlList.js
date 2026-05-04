@@ -1,8 +1,5 @@
 const puppeteer = require('puppeteer');
-const { get_config } = require('./configs');
 const process = require('node:process');
-
-const config = get_config("headlessconn::Rblx::Log-In");
 
 const TargetUrlList = [
 	"/home",
@@ -21,10 +18,6 @@ const TargetUrlList = [
 const urls = new Set();
 
 (async () => {
-	const token = config["Roblox-Authentication-Token"];
-	if (token === undefined)
-		throw new Error("Undefined token.");
-
 	const browser = await puppeteer.launch({
 		headless: false, // more reliable for login flows
 		defaultViewport: null,

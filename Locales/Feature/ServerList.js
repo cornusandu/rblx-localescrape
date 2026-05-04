@@ -47,5 +47,9 @@ Roblox.LangDynamic["Feature.ServerList"] = {
     "Description.OtherServersSubtitle": "Play with anyone in the community",
     "Label.Loading": "Loading...",
     "Label.PricePerMonth": "{price}/month",
+    "Title.CreatePrivateServer": "Create private server",
+    "Title.SubscribeToServer": "Subscribe to server",
+    "Description.PrivateServerSheetSubscriptionLegal":
+        'By clicking "Subscribe", you agree to the {linkStart}Roblox Subscription Terms{linkEnd}. You will be automatically charged each month until you cancel.',
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.ServerList");
