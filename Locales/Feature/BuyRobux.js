@@ -51,5 +51,6 @@ Roblox.LangDynamic["Feature.BuyRobux"] = {
     "Heading.SendRobux": "Send Robux",
     "Heading.StandardPackages": "Standard Packages",
     "Heading.SubscriptionV2": "New on Roblox",
+    "Label.MyFriendsWithCount": "My friends ({count})",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.BuyRobux");

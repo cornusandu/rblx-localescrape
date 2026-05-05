@@ -130,5 +130,6 @@ Roblox.LangDynamic["Feature.GameDetails"] = {
     "Message.ReportedTile": "Thanks! Your feedback helps keep Roblox safe.",
     "Label.IgrsImageAltText": "IGRS Rating Image",
     "Label.DefaultGameImageAltText": "Promotional image #{imageNum} for {placeName}",
+    "Label.Badges": "Badges",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.GameDetails");

@@ -15,7 +15,12 @@ const TargetUrlList = [
 	"/my/account#!/info",
 	"/plus",
 	"https://about.roblox.com/newsroom",
-	"/giftcards-us"
+	"/giftcards-us",
+	"/games/131787994579025/Bloodmoney",
+	"/charts",
+	"/catalog",
+	"https://create.roblox.com/",
+	
 ]
 .map(u => u.startsWith('https') ? u : "https://www.roblox.com" + u);
 
