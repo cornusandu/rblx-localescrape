@@ -141,5 +141,8 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Title.PurchasePromoHeadlinePart2": "Unlock 20% off.",
     "Description.SavingsDataDelay": "All data shown here is delayed by 1 day",
     "Label.MonthlyPrice": "{amount}/month",
+    "Lable.PlusLandingPage.Subtitle": "{boldStart}Starts at {price}{boldEnd}/{periodType}",
+    "Description.Benefit.AllPlus.V2": "All exclusive perks and discounts in Plus",
+    "Description.Benefit.BetterValue": "{oldAmount} value for {newAmount}",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");
