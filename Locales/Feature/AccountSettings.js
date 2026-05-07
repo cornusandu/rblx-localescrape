@@ -2013,5 +2013,8 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.RequestAccountDataConfirmation": "Request account data",
     "Label.RequestAccountDataReceived": "We're processing your request",
     "Description.RequestAccountDataReceived": "You'll receive an email when your data is ready.",
+    "Description.ConfirmRevokeExperience": "Your child may still be able to play this game if their content maturity setting allows it.",
+    "Heading.ConfirmRevoke": "Remove From Allowed Games",
+    "Action.Revoke": "Remove",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");

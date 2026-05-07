@@ -144,5 +144,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Lable.PlusLandingPage.Subtitle": "{boldStart}Starts at {price}{boldEnd}/{periodType}",
     "Description.Benefit.AllPlus.V2": "All exclusive perks and discounts in Plus",
     "Description.Benefit.BetterValue": "{oldAmount} value for {newAmount}",
+    "Description.Benefit.BetterValue.V2": "{oldAmount} value",
+    "Label.PlusLandingPage.Subtitle.V2": "Starts at {boldStart}{price}{boldEnd}/{periodType}",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");

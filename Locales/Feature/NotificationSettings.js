@@ -6,7 +6,7 @@ Roblox.LangDynamic["Feature.NotificationSettings"] = {
     "Heading.DeviceNotifications": "Device Notifications",
     "Description.DeviceNotifications": "Manage channels",
     "Heading.Communities": "Communities",
-    "Description.Communities": "Group announcements and forum discussions",
+    "Description.Communities": "Community announcements and forum discussions",
     "Heading.Social": "Social",
     "Description.Social": "Friends and party activity",
     "Heading.Experiences": "Games",
