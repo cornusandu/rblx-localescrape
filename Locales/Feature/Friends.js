@@ -9,7 +9,7 @@ Roblox.LangDynamic["Feature.Friends"] = {
     "Message.ForMaxRequestsFooter": "You can not accept their Friend Request until they remove a Friend.",
     "Message.ForGeneralError": "Something went wrong.",
     "Message.ForGeneralFooter": "Please check back in few minutes.",
-    "Heading.MyFriends": "My Friends",
+    "Heading.MyFriends": "My friends",
     "Heading.UsersFriends": "{username}'s Friends",
     "Label.FriendRequests": "Friend Requests",
     "Label.Friends": "Friends",
