@@ -1182,5 +1182,6 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Message.UpdateSecuritySettingsMemberListVisibility": "{actor} changed the member list visibility",
     "Action.NewPosts": "New Posts",
     "Action.NewComments": "New Comments",
+    "Message.Saved": "Saved",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");

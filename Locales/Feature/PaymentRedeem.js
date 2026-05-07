@@ -55,5 +55,6 @@ Roblox.LangDynamic["Feature.PaymentRedeem"] = {
     "Label.Tax": "Tax",
     "Description.SubscribeDetailsV2":
         "Subscriptions and any applicable taxes are charged monthly. You can cancel your subscription at any time. Insufficient credit will cancel a renewal. Roblox {linkStart}Terms of Use{linkEnd} apply.",
+    "Label.ScanQRCodeWithVenmo": "Scan with your Venmo app to pay",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.PaymentRedeem");
