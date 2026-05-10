@@ -2016,5 +2016,23 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ConfirmRevokeExperience": "Your child may still be able to play this game if their content maturity setting allows it.",
     "Heading.ConfirmRevoke": "Remove From Allowed Games",
     "Action.Revoke": "Remove",
+    "Description.ChildSide.ExperienceChat.TrustedFriendsOnly": "Chat with trusted friends who are playing the same experience.",
+    "Description.ChildSide.DirectChatSetting.TrustedFriendsOnly": "Chat directly with trusted friends playing the same game.",
+    "Description.PartyChat.TrustedFriendsOnly": "Chat with trusted friends when you're in the same Party.",
+    "Description.PartyVoiceChat.TrustedFriendsOnly": "Voice Chat with trusted friends when you're in the same Party.",
+    "Description.ParentSide.ExperienceChatSetting.TrustedFriends": "This allows your child to chat with trusted friends who are playing the same experience.",
+    "Descripton.ParentSide.ExperienceChat.TrustedFriends": "Your child can chat with trusted friends who are playing the same experience.",
+    "Description.ParentSide.DirectChatSetting.TrustedFriends":
+        "This allows your child to chat directly with trusted friends who are playing the same experience.",
+    "Description.PartyChatConsent.TrustedFriends": "This allows your child to chat with trusted friends when they're in the same Party.",
+    "Description.ChildSide.DirectChat.TrustedFriendsOnly": "Chat directly with trusted friends playing the same experience.",
+    "Description.PartySetting.AddToParty": "Manage who can add you to a Party.",
+    "Description.PartySettingConsent.AddToParty": "Your child can be added to a Party.",
+    "Heading.TopGames": "Top games",
+    "Description.TopGames": "View and manage the 20 games your child has played the most. {linkStart}Learn more{linkEnd}",
+    "Heading.RecentActivity": "Recent activity",
+    "Heading.TopGamesThisWeek": "Top games this week",
+    "Description.ParentSide.ExperienceChat.TrustedFriends":
+        "Your child can chat with trusted friends who are playing the same experience. {linkStart}View details{linkEnd}.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");

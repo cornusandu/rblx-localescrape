@@ -40,6 +40,7 @@ Roblox.LangDynamic["CommonUI.Controls"] = {
     "Action.Open": "Open",
     "Action.Previous": "Previous",
     "Action.Remove": "Remove",
+    "Action.Share": "Share",
     "Action.Stop": "Stop",
     "Action.Discard": "Discard",
     "Label.UnsavedChanges": "Unsaved Changes",

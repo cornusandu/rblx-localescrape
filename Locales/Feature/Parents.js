@@ -497,5 +497,17 @@ Roblox.LangDynamic["Feature.Parents"] = {
         'This game has a "Restricted" content maturity rating, and it may contain strong violence, heavy realistic blood, moderate crude humor, romantic themes, unplayable gambling content, strong language, the presence of alcohol, and/or moderate fear.',
     "Description.VPCRequestApproveExperienceMinimal":
         'This game has a "Minimal" content maturity rating, and it may contain occasional mild violence, light unrealistic blood, and/or occasional mild fear.',
+    "Description.PartyChatConsent.TrustedFriends": "This allows your child to chat with trusted friends when they're in the same Party.",
+    "Description.VPCRequestExpDirectChat.TrustedFriends": "This allows your child to chat directly with trusted friends who are playing the same experience.",
+    "Description.ChatAcrossAgeGroups":
+        "Trusted friends may unlock features like chat across age groups, depending on your child’s region and age. {linkStart}View Details{linkEnd}",
+    "Description.AddTFConsent.ChatAcrossAgeGroupsWithoutFilter":
+        "Trusted friends may unlock features like chat across age groups and chat without filters, depending on your child’s region and age. Make sure this is a person you and your child know and trust. {linkStart}View Details{linkEnd}",
+    "Description.TrustedConnectionTeamCreateGame":
+        "This was made from the {gameName} experience, owned by {creatorName}, while working in Studio Team Create. Team Create lets creators work together in real-time in shared games.",
+    "Description.AddTFConsent.ChatAcrossAgeGroups":
+        "Trusted friends may unlock features like chat across age groups, depending on your child’s region and age. Make sure this is a person you and your child know and trust. {linkStart}View Details{linkEnd}",
+    "Description.ChatAcrossAgeGroupsWithoutFilter":
+        "Trusted friends may unlock features like chat across age groups and chat without filters, depending on your child’s region and age. {linkStart}View Details{linkEnd}",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Parents");
