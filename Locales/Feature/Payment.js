@@ -247,5 +247,10 @@ Roblox.LangDynamic["Feature.Payment"] = {
     "Message.CannotUnlinkPayPal": "PayPal account cannot be unlinked while there is an active subscription.",
     "Label.BillingAddress.SelectCountry": "Select country",
     "Label.BillingAddress.SelectState": "Select state",
+    "Label.BillingAddress.SelectProvince": "Select province",
+    "Label.RedeemAnotherCode": "Redeem another code",
+    "Label.BillingAddress.Province": "Province",
+    "Action.Change": "Change",
+    "Action.Edit": "Edit",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Payment");
