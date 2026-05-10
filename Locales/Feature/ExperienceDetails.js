@@ -43,5 +43,6 @@ Roblox.LangDynamic["Feature.ExperienceDetails"] = {
     "PlayButtonMessage.AgreeToNotice": "I agree to the notes by playing this experience",
     "PlayButtonText.Unlock": "Unlock",
     "AskYourParentToAllowGameModal.Label.Body": "You need parent permission to join this game.",
+    "UnplayableError.ContextualPlayabilityRequireParentApproval": "Ask your parent to unlock this game for you.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.ExperienceDetails");

@@ -65,5 +65,7 @@ Roblox.LangDynamic["Feature.PrivateServers"] = {
     "Label.OwnersServer": "{displayName}'s server",
     "Label.FreePrivateServerLimitReached": "Free private server limit reached",
     "Label.UnlimitedIncludedWithBlackbird": "Unlimited included with Plus",
+    "Label.PrivateServerCreated": "Your server is created",
+    "Action.Join": "Join",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.PrivateServers");

@@ -207,5 +207,6 @@ Roblox.LangDynamic["Feature.Profile"] = {
     "Label.NoFriendsYet": "{username} doesn’t have any friends yet.",
     ReportAbuse: "Report abuse",
     "Action.ReportAbuse": "Report abuse",
+    "Label.UserIsPlayingExperience": "<b>{userName}</b> is playing <b>{experienceName}</b>",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Profile");
