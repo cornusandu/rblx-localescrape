@@ -15,5 +15,12 @@ Roblox.LangDynamic["Feature.GameBadges"] = {
     "Label.RarityEasy": "Easy",
     "Label.RarityCakeWalk": "Cake Walk",
     "Label.RarityFreebie": "Freebie",
+    "Label.Type": "Type",
+    "Label.Earned": "Earned",
+    "Label.Updated": "Updated",
+    "Label.Experience": "Experience",
+    "Label.Rarity": "Rarity",
+    "Label.WonYesterday": "Won yesterday",
+    "Label.WonEver": "Won ever",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.GameBadges");

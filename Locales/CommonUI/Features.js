@@ -122,5 +122,6 @@ Roblox.LangDynamic["CommonUI.Features"] = {
     "Label.AddFriends": "Add Friends",
     "Label.Games": "Games",
     "Label.RobloxPlus": "Roblox Plus",
+    "Label.SupportCenter": "Support Center",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_CommonUI.Features");

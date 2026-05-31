@@ -44,5 +44,6 @@ Roblox.LangDynamic["Feature.SponsoredPages"] = {
     "Description.March2026Promo": "Get the Shoulder Mounted Camcorder and bonus '80s Party Animal",
     "Description.April2026Promo": "Get the Dazzling Disguise and bonus Loose-Leaf Noob",
     "Description.May2026Promo": "Get the HazardTech Spider Rig and bonus HazardTech Helm Bot",
+    "Description.June2026Promo": "Get the Soccer Ball Chain and bonus Goalkeeper's Hat Trick",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.SponsoredPages");

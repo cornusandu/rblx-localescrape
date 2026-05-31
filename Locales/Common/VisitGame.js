@@ -110,5 +110,6 @@ Roblox.LangDynamic["Common.VisitGame"] = {
     "Response.Dialog.ThirdInstruction": "Follow the instructions to install Roblox to your computer.",
     "Response.Dialog.FourthInstruction": "Now that it’s installed, {startLink}join the experience{endLink}.",
     "Action.Close": "Close",
+    "Response.Dialog.RedirectInstruction": "On {link}, download the app.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Common.VisitGame");

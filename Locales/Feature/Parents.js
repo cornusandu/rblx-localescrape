@@ -335,7 +335,7 @@ Roblox.LangDynamic["Feature.Parents"] = {
         "Ask your parents to help you with this step.{lineBreak}We’ll send an email to your parent to verify their age and link them to your account.{lineBreak}Parents, after linking, you’ll get access to insights on your teen’s screen time, spending, and more.",
     "Description.LinkToChildV2": "Link accounts to get insights about your teen’s Roblox activity",
     "Description.VPCRequestVoiceDataForProductImprovements":
-        "Roblox always uses voice data for safety and moderation. This setting also allows Roblox to use your child’s voice data for product improvements. {linkStart}View details{linkEnd}.",
+        "Roblox always uses voice data for safety and moderation. This setting also allows Roblox to use your child’s voice data for product improvements. {voiceDataUsageLinkStart}View details{voiceDataUsageLinkEnd}.",
     "Description.VoiceDataForProductImprovementsSettingNameInContext": "voice data for product improvements setting",
     "Description.EnterParentEmailV5":
         "Ask your parents to help you with this step.{lineBreak}We’ll send an email to your parent to verify their age and link them to your account.{lineBreak}Parents, after linking, you’ll get access to parental controls and insights on your child’s screen time, spending, and more.",
@@ -497,17 +497,25 @@ Roblox.LangDynamic["Feature.Parents"] = {
         'This game has a "Restricted" content maturity rating, and it may contain strong violence, heavy realistic blood, moderate crude humor, romantic themes, unplayable gambling content, strong language, the presence of alcohol, and/or moderate fear.',
     "Description.VPCRequestApproveExperienceMinimal":
         'This game has a "Minimal" content maturity rating, and it may contain occasional mild violence, light unrealistic blood, and/or occasional mild fear.',
+    "Heading.ConversationalRequest.ShareActivityUpdatesV2": "Can your child share updates about their recent activity with their friends?",
+    "Description.VPCRequestShareActivityUpdatesV3": "This allows your child's friends to receive updates about their recent activity on Roblox.",
     "Description.PartyChatConsent.TrustedFriends": "This allows your child to chat with trusted friends when they're in the same Party.",
     "Description.VPCRequestExpDirectChat.TrustedFriends": "This allows your child to chat directly with trusted friends who are playing the same experience.",
     "Description.ChatAcrossAgeGroups":
         "Trusted friends may unlock features like chat across age groups, depending on your child’s region and age. {linkStart}View Details{linkEnd}",
     "Description.AddTFConsent.ChatAcrossAgeGroupsWithoutFilter":
         "Trusted friends may unlock features like chat across age groups and chat without filters, depending on your child’s region and age. Make sure this is a person you and your child know and trust. {linkStart}View Details{linkEnd}",
-    "Description.TrustedConnectionTeamCreateGame":
-        "This was made from the {gameName} experience, owned by {creatorName}, while working in Studio Team Create. Team Create lets creators work together in real-time in shared games.",
+    "Description.TrustedConnectionTeamCreateGame": "For game {gameName} by creator group {creatorName}.",
     "Description.AddTFConsent.ChatAcrossAgeGroups":
         "Trusted friends may unlock features like chat across age groups, depending on your child’s region and age. Make sure this is a person you and your child know and trust. {linkStart}View Details{linkEnd}",
     "Description.ChatAcrossAgeGroupsWithoutFilter":
         "Trusted friends may unlock features like chat across age groups and chat without filters, depending on your child’s region and age. {linkStart}View Details{linkEnd}",
+    "Label.Contacts": "Contacts",
+    "Action.VerifyViaAgeEstimation": "Verify with camera",
+    "Description.RegionRequiresDifferentVerification": "Your child's account is now in a region that requires a different form of parent verification",
+    "Heading.VerifyAgainToContinue": "Verify your age again to continue",
+    "Title.RegionalRequirements": "Regional requirements",
+    "Description.RegionalRequirements":
+        "Different regions have different rules for verifying parents. The method you used before isn't accepted where your child's account is now registered.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Parents");
