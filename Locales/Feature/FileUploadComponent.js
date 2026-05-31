@@ -15,5 +15,6 @@ Roblox.LangDynamic["Feature.FileUploadComponent"] = {
     "Message.InvalidFileSize": "Invalid file size. File must be less than {fileSize}MB.",
     "Message.DisplayDimensions": "Images will display at {dimensions}px.",
     "Message.Uploading": "Uploading",
+    "Action.Remove": "Remove file",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.FileUploadComponent");

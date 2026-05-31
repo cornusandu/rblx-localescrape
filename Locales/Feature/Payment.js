@@ -252,5 +252,12 @@ Roblox.LangDynamic["Feature.Payment"] = {
     "Label.BillingAddress.Province": "Province",
     "Action.Change": "Change",
     "Action.Edit": "Edit",
+    "Message.PayPalError": "There was an error connecting to PayPal. Please try again.",
+    "Message.VenmoError": "There was an error connecting to Venmo. Please try again.",
+    "Label.Code": "Code",
+    "Action.Reload": "Reload",
+    "Action.Retry": "Retry",
+    "Response.PaymentMethodError": "There was an error loading the payment method. Please retry or use a different payment method.",
+    "Message.PayPalReconnect": "There was an issue connecting to your PayPal account. Please unlink and reconnect.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Payment");

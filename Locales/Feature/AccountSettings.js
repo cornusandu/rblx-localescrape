@@ -595,8 +595,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.ToolTip.MoreInfo": "Click here for more information",
     "Response.Dialog.InvalidPasswordError": "Please create a more complex password",
     "Title.AboutVoiceChat": "About Voice Chat",
-    "Description.BeforeCommunityStandards":
-        "This setting allows qualified users to use voice to communicate in Roblox experiences. You are expected to follow the ",
+    "Description.BeforeCommunityStandards": "This setting allows qualified users to use voice to communicate in Roblox games. You are expected to follow the",
     "Label.CommunityStandards": "Roblox Community Standards",
     "Description.AfterCommunityStandards": " while using this feature. If you see others breaking the rules, please report abuse to let us know.",
     "Description.VoiceChatInfo.HowTitle": "How do I use voice chat?",
@@ -702,7 +701,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Message.UpdateRecommendAsContactSuccess": "Successfully updated recommendation preferences.",
     "Message.UpdateRecommendAsContactFailure": "Unable to update recommendation preferences.",
     "Label.LearnMoreAboutVoiceRecording": "Learn More about Voice Recording",
-    "Heading.ContentControls": "Allowed Experiences",
+    "Heading.ContentControls": "Allowed games",
     "Description.ContentControls": "Choose the {linkStart}highest age guideline{linkEnd} of experiences this account can join.",
     "Label.ContentControls13": "13+ (Suitable for ages 13 and older)",
     "Label.ContentControls9": "9+ (Suitable for ages 9 and older)",
@@ -749,7 +748,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.Notifications.ExperienceInvitation": "A friend invites me to an experience",
     "Description.ContentControlsWithUnratedDescription":
         "Choose the highest {linkStart}age guideline{linkEnd} of experiences this account can join.{lineBreak}All experiences are still searchable. Unrated experiences are currently treated as 13+.",
-    "Heading.AllowedExperiences": "Allowed Experiences",
+    "Heading.AllowedExperiences": "Allowed games",
     "Response.Dialog.ChangeAccountLocation": "Change Location",
     "Heading.ChatWithVoice": "Chat with Voice",
     "Label.SettingAllowsChatWithVoiceV2": "This setting allows you to {startLink}chat with your voice{endLink}",
@@ -865,7 +864,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Action.ToAccountInfo": "Go to Account Info",
     "Description.NeedIdVerification": "To gain access to 17+ content, you must verify that you are 17 years old or older.",
     "Description.AllowedExperience":
-        "All experiences are searchable. Experiences without {linkStart}Experience Guidelines{linkEnd} are treated as 13+ and are prohibited from displaying any 17+ content. All content on Roblox must comply with the {communityLinkStart}Roblox Community Standards{communityLinkEnd}.",
+        "All games are searchable. Games without {linkStart}Experience Guidelines{linkEnd} are treated as 13+ and are prohibited from displaying any 17+ content. All content on Roblox must comply with the {communityLinkStart}Roblox Community Standards{communityLinkEnd}.",
     "Label.BillingAnnotateWithHelpLink":
         "You can manage previously saved credit or debit cards in Checkout when purchasing Robux. For questions on payment methods, please see the {aTagStartWithHref}{billingHelpPagesLink}{hrefEnd}billing help pages{aTagEnd}.",
     "Description.PrivacyRightsRequest": "For all other privacy rights requests, please visit our {linkStart}Support Form{linkEnd}.",
@@ -943,7 +942,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.SavedCreditCard.IncorrectCVCErrorMessage": "Incorrect CVC. Please check your information and try again.",
     "Description.SavedCreditCard.CardDeclinedErrorMessage": "Card declined. Please review the card details or try a different card.",
     "Description.SavedCreditCard.CardExpiredErrorMessage": "Card expired. Please review the card details or try a different card.",
-    "Description.AllowedExperienceUnavailableIOS": " 17+ experiences are not accessible on iOS devices.",
+    "Description.AllowedExperienceUnavailableIOS": "17+ games are not accessible on iOS devices.",
     "Response.VerificationError": "System error occurred during verification.",
     "Response.SuccessfulVerificationV2": "You have successfully verified! Please retry your previous action.",
     "Description.VerifyAgeConsent":
@@ -1115,7 +1114,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.DropDown.No": "No",
     "Heading.Dialog.ShareCurrentExperiencesWithFriends": "Now sharing your current experience with friends",
     "Response.Dialog.ShareCurrentExperiencesWithFriends":
-        "Because you turned on friend activity updates, your friends will now also be able to see your current experience and join you.",
+        "Because you turned on friend activity updates, your friends will now also be able to see your current game and join you.",
     "Label.DropDown.Yes": "Yes",
     "Label.Dialog.EmailConsent": "I'd also like to sign up to receive emails from Roblox about announcements, updates, and offers.",
     "Label.Pending": "Pending",
@@ -1265,7 +1264,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.DailyScreenTimeLimit": "daily screen time limit",
     "Heading.Tab.Spending": "Spending",
     "Heading.VoiceAndCamera": "Voice and camera",
-    "Description.TradingAndInventory": "Only Premium users can trade on Roblox.",
+    "Description.TradingAndInventory": "Only Plus users can trade on Roblox.",
     "Label.HighSpendAlerts": "High spend alerts",
     "Label.AllTransactions": "All transactions",
     "Description.MonthlySpendLimitV2":
@@ -1282,12 +1281,12 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.AskEnablePurchase": "To enable purchases, you need parent permission.",
     "Heading.AllowPurchases": "Allow purchases",
     "Label.AccountDeactivation": "Account deactivation",
-    "Description.ContentMaturity": "Choose a content maturity level for your account. This controls which experiences you can join.",
+    "Description.ContentMaturity": "Choose a content maturity level for your account. This controls which games you can join.",
     "Label.FriendsAndFollowing": "Friends & people I follow",
     "Description.ParentSide.ContentMaturity": "Choose a content maturity level for your child’s account. This controls which experiences your child can join.",
-    "Description.ShowCurrentExperience": "Who can see your current experience and join you",
+    "Description.ShowCurrentExperience": "Who can see your current game and join you",
     "Description.ParentSide.ShowCurrentExperience": "Who can see your child’s current experience and join them",
-    "Description.PrivateServers": "A private server is a Roblox experience with limits on who can join.",
+    "Description.PrivateServers": "A private server is a Roblox game with limits on who can join.",
     "Description.ParentSide.PrivateServersSetting": "Who can join your child’s private servers, and whose private servers your child can join",
     "Description.PrivateServersSetting": "Who can join your private servers, and whose private servers you can join",
     "Description.Trading": "Only Premium users can trade on Roblox. When you restrict one of these settings, other related settings may also be restricted.",
@@ -1442,7 +1441,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.DeleteSyncedContacts": "Delete Synced Contacts",
     "Action.AddParent": "Add parent",
     "Description.ExperienceChatDisclaimer":
-        "These settings only apply to experience chat and direct chat, not to chat features added by the creator of an experience.",
+        "These settings only apply to experience chat and direct chat, not to chat features added by the creator of a game.",
     "Description.ErrorLoadingList": "We’re having trouble loading this list. Try refreshing the screen.",
     "Description.AllCaughtUp": "You're all caught up",
     "Description.ParentSide.Spending": "Manage your child’s spending on Roblox. To manage their subscriptions, {linkStart}learn more.{linkEnd}",
@@ -1457,7 +1456,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ParentSide.ExperienceNotifications": "Allow your child to turn on notifications from experiences.",
     "Description.RequestCancelled": "Your request has been canceled.",
     "Description.AllowPurchases":
-        "Allow your child to make purchases, such as buying Robux or subscriptions.{lineBreak}This setting does not impact gift card redemption or use of Robux.{lineBreak}Disabling purchases will not cancel existing subscriptions. Learn more about how to manage your child’s {premiumLinkStart}Premium subscriptions{linkEnd} or {subscriptionsLinkStart}subscriptions within experiences{linkEnd}.",
+        "Allow your child to make purchases, such as buying Robux or subscriptions.{lineBreak}This setting does not impact gift card redemption or use of Robux.{lineBreak}Disabling purchases will not cancel existing subscriptions. Learn more about how to manage your child’s {premiumLinkStart}Premium subscriptions{linkEnd} or {subscriptionsLinkStart}subscriptions within games{linkEnd}.",
     "Label.Invalid": "Invalid",
     "Heading.VerifyYourAge": "Verify your age",
     "Description.VerifyYourAge": "Only adults ages 17 or older have access to Restricted experiences. {linkStart}Learn more{linkEnd}",
@@ -1504,13 +1503,13 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.PartyPrivacyUpdated": "Party and related settings updated",
     "Action.ViewProfile": "View profile",
     "Action.Block": "Block",
-    "Heading.PerExperienceScreentime": "Top experiences",
+    "Heading.PerExperienceScreentime": "Top games",
     "Heading.ScreentimeManagement": "Screentime",
     "Description.ParentSide.ScreentimeManagement":
         "View your child’s top 20 experiences from the last week. You can also set a daily limit on the time your child spends on Roblox.",
     "Description.ChildSide.ScreentimeManagement":
         "View your Roblox screen time from the last week, including your top 20 experiences. Your parent can set a daily limit on the time you spend on Roblox.",
-    "Description.ChildSide.PerExperienceScreentime": "View your top 20 experiences from the last week. {linkStart}Learn more{linkEnd}.",
+    "Description.ChildSide.PerExperienceScreentime": "View your top 20 games from the last week. {linkStart}Learn more{linkEnd}.",
     "Description.ParentSide.PerExperienceScreentime": "View your child’s top 20 experiences from the last week. {linkStart}Learn more{linkEnd}.",
     "Heading.ConfirmBlock": "Confirm block",
     "Description.ParentBlockingUser":
@@ -1523,14 +1522,14 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ChildMaxBlockedUsers": "Your child already has the maximum number of blocked users",
     "Label.UnblockUser": "unblock {displayName}",
     "Label.UnblockExperience": "unblock {experienceName}",
-    "Heading.BlockedExperiences": "Blocked experiences",
+    "Heading.BlockedExperiences": "Blocked games",
     "Description.ParentSide.BlockedUsers": "Blocked users cannot be added to your child’s friend list and cannot chat directly with your child",
     "Description.BlockedUsers": "Blocked users cannot be added to your Connections list and cannot chat directly with you",
     "Description.MaxBlockedUsers": "You already have the maximum number of blocked users",
     "Description.UnblockUSer": "Unblocking will allow this user to send you a friend request.",
     "Heading.UnblockUser": "Unblock {displayName}",
     "Heading.UnblockThisUser": "Unblock this user",
-    "Description.ScreentimeZeroState": "No top experiences yet",
+    "Description.ScreentimeZeroState": "No top games yet",
     "Description.UnblockUserSuccess": "{displayName} is now unblocked",
     "Heading.ContentRestrictions": "Content restrictions",
     "Description.UnratedExperience": "N/A",
@@ -1543,9 +1542,9 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ExperienceUnblockApproved": "{experienceName} is now unblocked",
     "Description.ExperienceUnblockDenied": "{experienceName} has not been unblocked",
     "Description.BlockExperienceSuccess": "{experienceName} is now blocked",
-    "Description.NoBlockedExperiences": "No blocked experiences yet",
+    "Description.NoBlockedExperiences": "No blocked games yet",
     "Header.CantBlockExperience": "Can’t block experience",
-    "Description.MaxBlockedExperiences": "Your child already has the maximum number of blocked experiences",
+    "Description.MaxBlockedExperiences": "Your child already has the maximum number of blocked games",
     "Header.MaxBlockedUsers": "Max blocked users",
     "Heading.CantBlockUser": "Can’t block user",
     "Action.Blocked": "Blocked",
@@ -1557,15 +1556,15 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Heading.BlockedByYou": "Blocked by you",
     "Heading.BlockedByYourParent": "Blocked by your parent",
     "Heading.BlockedByYourChild": "Blocked by your child",
-    "Description.ChildSide.PerExperienceScreentimeV2": "View your top twenty experiences from the last week. {linkStart}Learn more{linkEnd}.",
+    "Description.ChildSide.PerExperienceScreentimeV2": "View your top twenty games from the last week. {linkStart}Learn more{linkEnd}.",
     "Description.ChildSide.ScreentimeManagementV2":
         "View your Roblox screen time from the last week, including your top twenty experiences. Your parent can set a daily limit on the time you spend on Roblox.",
     "Description.ParentSide.PerExperienceScreentimeV2": "View your child’s top twenty experiences from the last week. {linkStart}Learn more{linkEnd}.",
     "Description.ParentSide.ScreentimeManagementV2":
         "View your child’s top twenty experiences from the last week. You can also set a daily limit on the time your child spends on Roblox.",
-    "Description.BlockedExperience": "Blocked experience",
+    "Description.BlockedExperience": "Blocked game",
     "Heading.CantBlockExperience": "Can't block experience",
-    "Description.MaxExperiencesBlocked": "Your child already has the maximum number of blocked experiences",
+    "Description.MaxExperiencesBlocked": "Your child already has the maximum number of blocked games",
     "Heading.Tab.PrivacyContentRestrictions": "Privacy & content restrictions",
     "Label.PrivateServer": "“{privateServerName}” - Private Server",
     "Heading.PrivateServer": "Private Server",
@@ -1674,9 +1673,9 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.SavedCreditCard.RobloxCreditConversionAmount25PercentMoreRobux":
         "Your Roblox Credit will be converted into {boldStart}{robuxAmount} Robux{boldEnd}. This amount includes a bonus of up to 25% for all Robux purchased on web.",
     "Label.SensitiveIssues": "Sensitive issues",
-    "Description.ChildSide.SensitiveIssues": "Join experiences that focus on sensitive social, political, or religious issues like immigration or abortion.",
+    "Description.ChildSide.SensitiveIssues": "Join games that focus on sensitive social, political, or religious issues like immigration or abortion.",
     "Description.ParentSide.SensitiveIssues":
-        "Allow your child to join experiences that focus on sensitive social, political, or religious issues like immigration or abortion.",
+        "Allow your child to join games that focus on sensitive social, political, or religious issues like immigration or abortion.",
     "Heading.SensitiveIssuesContentSetting": "Sensitive issues content setting",
     "Label.SensitiveIssuesContentSetting": "sensitive issues content setting",
     "Label.AllowSensitiveIssues": "Allow sensitive issues",
@@ -1816,7 +1815,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.AgeCheckRequestDenied": "Your parent did not approve your request to complete an age check",
     "Action.Dialog.Dismiss": "Dismiss",
     "Description.ChildSide.ExperienceChat": "Chat with people in similar age groups who are playing the same experience.",
-    "Description.ChildSide.DirectChat": "Chat directly with people of similar age playing the same experience – including people who are not your Connections.",
+    "Description.ChildSide.DirectChat": "Chat directly with people of similar age playing the same game – including people who are not your Connections.",
     "Description.ExperienceChatV2": "Chat with all people of similar age playing the same experience.",
     "Descripton.ParentSide.ExperienceChatV2":
         "Your child can chat with people in similar age groups playing the same experience. {linkStart}View details{linkEnd}.",
@@ -1873,7 +1872,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.AgeVerification.FAEButtonV2": "Continue with camera",
     "Description.AgeVerification.FAEOnlyV2": "We can estimate your age with your camera.",
     "Description.ChildSide.DirectChatSettingV3":
-        "Chat directly with Trusted Connections and people of similar age groups playing the same experience – including people who are not your Connections.",
+        "Chat directly with Trusted Connections and people of similar age groups playing the same game – including people who are not your Connections.",
     "Description.ChildSide.ExperienceChatV3": "Chat with Trusted Connections and people in similar age groups who are playing the same experience.",
     "Descripton.ParentSide.ExperienceChatV3":
         "Your child can chat with Trusted Connections and people in similar age groups playing the same experience. {linkStart}View details{linkEnd}.",
@@ -1915,33 +1914,33 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
         "Your linked parent will have access to parental controls and insights on your screen time, friends, spending, and more.",
     "Description.BlockedUsers.FriendsRename": "Blocked users cannot be added to your friends list and cannot chat directly with you",
     "Description.ChildSide.DirectChat.FriendsRename":
-        "Chat directly with people of similar age playing the same experience – including people who are not your friends.",
+        "Chat directly with people of similar age playing the same game – including people who are not your friends.",
     "Description.ChildSide.DirectChatSettingV3.FriendsRename":
-        "Chat directly with trusted friends and people of similar age groups playing the same experience – including people who are not your friends.",
+        "Chat directly with trusted friends and people of similar age groups playing the same game – including people who are not your friends.",
     "Description.ChildSide.DirectChatV2.FriendsRename":
         "Chat directly with people of similar age groups playing the same experience – including people who are not your friends.",
-    "Description.ChildSide.ExperienceChatV3.FriendsRename": "Chat with trusted friends and people in similar age groups who are playing the same experience.",
+    "Description.ChildSide.ExperienceChatV3.FriendsRename": "Chat with trusted friends and people in similar age groups who are playing the same game.",
     "Description.ConnectWithContactsWeb.FriendsRename": "To enable contacts, go to Add Friends in the Roblox app on your mobile device.",
-    "Description.DirectChatV2.FriendsRename": 'Who you can direct message with in an experience. "Everyone" may include users outside of your friends list.',
+    "Description.DirectChatV2.FriendsRename": 'Who you can direct message with in a game. "Everyone" may include users outside of your friends list.',
     "Description.ParentBlockingUserV2.FriendsRename":
         "Blocking will remove this user from your child's friends list and prevent your child from adding them again without your permission.",
     "Description.ParentSide.DesktopNotifications.FriendsRename":
         "Allow your child to turn on desktop push notifications about activity on Roblox, such as friend requests or chat messages.",
     "Description.ParentSide.DirectChatSetting.FriendsRename":
-        "This allows your child to chat directly with people of similar age playing the same experience – including people who are not their friends.",
+        "This allows your child to chat directly with people of similar age playing the same game – including people who are not their friends.",
     "Description.ParentSide.DirectChatSettingV3.FriendsRename":
         "This allows your child to chat directly with trusted friends and people of similar age playing the same experience – including people who are not their friends.",
     "Label.SimilarAgeGroupsOrTrustedFriends": "Similar age groups or trusted friends",
     "Description.ParentSide.DirectChatV2.FriendsRename":
-        'Who your child can direct message with in an experience. "Everyone" may include users outside of your child\'s friends list.',
-    "Description.ShareActivityUpdatesV2.FriendsRename": "Allow friends to receive updates about your recent activity in experiences",
+        'Who your child can direct message with in a game. "Everyone" may include users outside of your child\'s friends list.',
+    "Description.ShareActivityUpdatesV2.FriendsRename": "Allow friends to receive updates about your recent activity in games",
     "Description.ParentSide.ExperienceChatSettingV3.FriendsRename":
         "This allows your child to chat with trusted friends and people in similar age groups who are playing the same experience.",
     "Description.ParentSide.PartyO13V2.FriendsRename":
         "A Party allows your child to group up to join experiences together and chat with people in similar age groups. Only your child's friends can add them to a Party, and they can only add their own friends.",
     "Description.ParentSide.PartyV2.FriendsRename":
         "A Party allows your child to group up to join experiences together. Only your child's friends can add them to a Party, and they can only add their own friends.",
-    "Description.ParentSide.ShareActivityUpdatesV2.FriendsRename": "Allow your child's friends to receive updates about their recent activity in experiences",
+    "Description.ParentSide.ShareActivityUpdatesV2.FriendsRename": "Allow your child's friends to receive updates about their recent activity in games",
     "Description.ParentUnblockUserV2.FriendsRename": "Unblocking will allow this user to send your child a friend request",
     "Description.PartyO13V2.FriendsRename":
         "Group up to join experiences together and chat with people in similar age groups. Only your friends can add you to a Party, and you can only add your own friends.",
@@ -1953,7 +1952,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.TrustedFriendAddDenied": "{displayName} has not been added as a trusted friend for your child.",
     "Description.UnblockUserV2.FriendsRename": "Unblocking will allow this user to send you a friend request",
     "Descripton.ParentSide.ExperienceChatV3.FriendsRename":
-        "Your child can chat with trusted friends and people in similar age groups playing the same experience. {linkStart}View details{linkEnd}.",
+        "Your child can chat with trusted friends and people in similar age groups playing the same game. {linkStart}View details{linkEnd}.",
     "Heading.AddTrustedFriend": "New trusted friend: {username}",
     "Label.TrustedFriends": "Trusted friends",
     "Label.ReceiveRobuxTransfer": "accept {amount} Robux from {username}",
@@ -1985,11 +1984,11 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Description.ChangeParentalRecoveryEmailPrivacyPolicy":
         "Your parent may receive emails related to account recovery, security and payments. This account email will not change until the new email has been verified. {linkStart}Privacy policy.{linkEnd}",
     "Label.NoOneLowercase": "no one",
-    "Heading.ApprovedExperiences": "Allowed Experiences",
+    "Heading.ApprovedExperiences": "Allowed games",
     "Description.ApprovedExperiences": "Games you allow your child to play, even when the content rating doesn't match your child's age.",
-    "Description.NoApprovedExperiences": "No allowed experiences yet",
-    "Action.RemoveFromApproved": "Remove from Allowed experiences",
-    "Description.RevokeApprovalSuccess": "{experienceName} has been removed from Allowed experiences.",
+    "Description.NoApprovedExperiences": "No allowed games yet",
+    "Action.RemoveFromApproved": "Remove from Allowed games",
+    "Description.RevokeApprovalSuccess": "{experienceName} has been removed from Allowed games.",
     "Description.Parent.TrustedFriendsAllFeaturesDisclaimer":
         "Friends marked as trusted can use chat without filters, Party voice on Roblox and live collaboration in Studio with your child. {linkStart}View Details.{linkEnd}",
     "Label.Subscriptions.FreeWithPlus": "Free With Plus",
@@ -2013,8 +2012,10 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.RequestAccountDataConfirmation": "Request account data",
     "Label.RequestAccountDataReceived": "We're processing your request",
     "Description.RequestAccountDataReceived": "You'll receive an email when your data is ready.",
+    "Heading.ShareActivityUpdatesSetting": "Share activity updates setting",
+    "Label.ShareActivityUpdatesSetting": "share activity updates setting",
     "Description.ConfirmRevokeExperience": "Your child may still be able to play this game if their content maturity setting allows it.",
-    "Heading.ConfirmRevoke": "Remove From Allowed Games",
+    "Heading.ConfirmRevoke": "Remove From Allowed games",
     "Action.Revoke": "Remove",
     "Description.ChildSide.ExperienceChat.TrustedFriendsOnly": "Chat with trusted friends who are playing the same experience.",
     "Description.ChildSide.DirectChatSetting.TrustedFriendsOnly": "Chat directly with trusted friends playing the same game.",
@@ -2034,5 +2035,31 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Heading.TopGamesThisWeek": "Top games this week",
     "Description.ParentSide.ExperienceChat.TrustedFriends":
         "Your child can chat with trusted friends who are playing the same experience. {linkStart}View details{linkEnd}.",
+    "Label.ContentMaturityRating": "{maturityRating} rating",
+    "Action.ViewMore": "View more",
+    "Heading.GameDetails": "Game details",
+    "Action.Request": "Request",
+    "Action.RequestData": "Request",
+    "Label.PlaytimeCompactHoursMinutes": "{hours}h {minutes}m",
+    "Label.PlaytimeCompactMinutes": "{minutes}m",
+    "Heading.Tab.Robux": "Robux",
+    "Label.Transfers": "Transfer limits",
+    "Label.MonthlyLimit": "Monthly limit",
+    "Label.HigherLimitBadge": "Higher limit",
+    "Action.Label.EnableHigherLimits": "Get higher limits",
+    "Description.EnableHigherLimits": "Set up 2-Step Verification on your account to send and receive up to 10,000 Robux every month",
+    "Label.DailyLimit": "Daily limit",
+    "Label.StandardLimitBadge": "Standard limit",
+    "Label.TransactionHistory": "Transaction history",
+    "Label.RobuxTransactions": "Robux transactions",
+    "Description.PrivacyRequests": "We just need a verified email address to keep you updated on your privacy requests.",
+    "Description.PrivacyRequestsWithLink":
+        "You must have a verified email address added to your account, so we can contact you about your requests. Learn more {linkStart}here{linkEnd}.",
+    "Description.PrivacyRequestsAddYourEmail": "Add your email to enable these features!",
+    "Description.Subscriptions.BannerTitle": "Roblox Plus anniversary gift drops July 31",
+    "Description.Subscriptions.BannerBody": "Keep your Plus subscription active to unbox an exclusive collectible inspired by classic Roblox gifts.",
+    "Heading.AccountDataDeactivationAndDeletion": "Account Data, Deactivation & Deletion",
+    "Label.PrivacyRequestOngoing": "Privacy request in progress",
+    "Description.PrivacyRequestOngoing": "A privacy request is already in progress. Please wait for it to complete before trying again.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.AccountSettings");

@@ -36,5 +36,7 @@ Roblox.LangDynamic["Common.PremiumFeatures"] = {
     "Label.RobloxPremiumTemplated": "Roblox Premium {amount}",
     "Label.RedeemGiftCardPageTitle": "Redeem Roblox Gift Cards and Codes",
     "Description.RedeemGiftCardMetaTag": "Enter your Roblox gift card or promo code to get Robux and unlock a free exclusive virtual item.",
+    "Label.GiftRobuxPageTitle": "Gift Robux on Roblox",
+    "Description.GiftRobuxMetaTag": "Send Robux directly to friends and family through Roblox’s Gift Robux feature.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Common.PremiumFeatures");

@@ -171,5 +171,13 @@ Roblox.LangDynamic["Feature.VerificationUpsell"] = {
         "By selecting “Verify,” I consent to Roblox's collection, use, and storage of my voice recording to enable voice services and for moderation, safety, and improvement of Roblox's services and tools.",
     "Description.TurnOnFriendDiscovery.FriendsRename": "Help people who have your phone number add you as a friend on Roblox",
     homebannerV1Header: "Don’t miss out on the latest",
+    ModalBodyGamesOnlyV3: "Get more games with an age check.",
+    BannerTitle: "Access to popular games has changed",
+    ModalBodyGamesOnly: "Unlock more games with an age check.",
+    ModalBodyGamesOnlyV2: "Complete an age check to unlock more games.",
+    ModalTitle: "Don’t lose access",
+    ModalTitleV2: "Stay in the game",
+    ModalTitleV3: "Take action now",
+    BannerBody: "Let’s check your age to see what you can still play.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.VerificationUpsell");
