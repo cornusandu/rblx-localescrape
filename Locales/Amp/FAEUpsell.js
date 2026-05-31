@@ -1,9 +1,9 @@
 var Roblox = Roblox || {};
 Roblox.LangDynamic = Roblox.LangDynamic || {};
 Roblox.LangDynamic["Amp.FAEUpsell"] = {
-    "Modal.ExternalLink.Title": "Age check required",
-    "Modal.ExternalLink.ButtonStart": "Start age estimation",
-    "Modal.ExternalLink.Text": "Check your age to unlock Chat without filters and Party voice.",
+    "Modal.ExternalLink.Title": "Let’s check your age",
+    "Modal.ExternalLink.ButtonStart": "Continue",
+    "Modal.ExternalLink.Text": "This unlocks more games and features like chat.",
     "Modal.ExternalLink.ButtonCancel": "Cancel",
     "Modal.Failed.Title": "Age check error",
     "Modal.Failed.Text": "Something went wrong. Please try again later.",

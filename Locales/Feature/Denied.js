@@ -26,5 +26,8 @@ Roblox.LangDynamic["Feature.Denied"] = {
         "Try this action from a {linkStart}trusted device{linkEnd}. If you can’t, we’ll need you to wait {numberOfUnits} {unitOfTime} for your security.",
     "Denied.Header.Maintenance": "Maintenance In Progress",
     "Denied.Body.MaintenanceInProgress": "We’re currently upgrading the security protocol on this feature, try again in 10 minutes.",
+    "Denied.TryTrusted.Header": "Try again from a trusted device",
+    "Denied.TryTrusted.Body":
+        "We need to be sure it's really you and at the moment, we can't. Try making this request again from a device which we have identified as trusted. This can be found in your security settings.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Denied");

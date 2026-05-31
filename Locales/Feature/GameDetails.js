@@ -93,6 +93,7 @@ Roblox.LangDynamic["Feature.GameDetails"] = {
     "Action.Refund": "Request Refund",
     "Heading.Refund": "Refunds",
     "Action.RequestRefund": "Request Refund",
+    "Heading.FeaturedSongs": "Top Songs in {experienceName}",
     "Label.ComingSoon": "Coming Soon",
     "Label.ContentFailedToLoad": "Content failed to load",
     "Message.SuggestLessExperiences": "We'll suggest fewer experiences like this",

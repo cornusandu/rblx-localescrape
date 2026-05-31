@@ -168,5 +168,16 @@ Roblox.LangDynamic["Feature.Transactions"] = {
     "Label.ReportMenu": "Report menu",
     "Label.ReportItemMenu": "Row actions",
     "Tooltip.CurrencyTransfer": "Go to the Buy Robux page to accept these Robux.",
+    "Label.RobuxTransferSent": "Robux Transfers Sent",
+    "Label.RobuxTransferReceived": "Robux Transfers Received",
+    "Action.ViewDetails": "View all",
+    "Description.RobloxSelect": "Roblox Select",
+    "Label.RobloxSelect": "Roblox Select",
+    "Label.O18OneTimePayoutCombinedRate": "Combined rate",
+    "Label.O18OneTimePayoutO18Only": "US 18+ rate",
+    "Tooltip.O18OneTimePayoutO18Only": "This payout uses the US 18+ rate, {devExIncreasePercent}% higher than the standard rate.",
+    "Tooltip.O18OneTimePayoutCombinedRateIntro": "This transaction combines US 18+ and standard rates.",
+    "Tooltip.O18OneTimePayoutCombinedRateO18Amount": "US 18+ rate: {robuxAmount} Robux",
+    "Tooltip.O18OneTimePayoutCombinedRateStandardAmount": "Standard rate: {robuxAmount} Robux",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Transactions");

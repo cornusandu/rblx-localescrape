@@ -179,7 +179,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.TShirt": "T-Shirt",
     "Label.Emote": "Emote",
     "Label.Clothing": "Clothing",
-    "Label.SellPageUpsell": "Selling is only available to users with a Premium membership.",
+    "Label.SellPageUpsell": "Selling is only available to users with a Roblox Plus membership.",
     "Label.AllCommunityCreations": "All Creations",
     "Heading.AvatarShop": "Avatar Shop",
     "Label.Premium": "Premium",
@@ -229,7 +229,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.Filter.Sorts": "Sorts",
     "Label.NewCollectibles": "New Collectibles!",
     "Message.CollectiblesInfo":
-        "Collectible items can be resold from user to user after a holding period, even if the original stock is not sold out. Premium subscribers can list Collectible items for resale.",
+        "Collectible items can be resold from user to user after a holding period, even if the original stock is not sold out. Roblox Plus subscribers can list Collectible items for resale.",
     "Label.LimitedU": "Limited U",
     "Label.Unlimited": "Unlimited",
     "Heading.SellYourCollectibleItem": "Sell Your Collectible Item",
@@ -364,6 +364,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
         "After purchasing, original sales enter a hold for up to {purchaseDays} days. The item can only be resold after this holding period ends and resales will have a hold of up to {resaleDays} days. Only premium users can resell items.",
     "Message.HoldingPolicyL1":
         "Purchases from resale will have a hold of up to {days} days. The item can only be resold after this holding period ends. Only premium users can resell items.",
+    "Label.Attribution": "Made In",
     "Label.InSingleExperience": "In Experience",
     "Label.SaveAsCharacter": "Save as a Character",
     "Label.OriginalUnavailable": "Original is currently unavailable for purchase",
@@ -510,5 +511,11 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.FullMask": "Full Mask",
     "Label.Subtotal": "Subtotal ({count} {itemWord})",
     "Label.Backgrounds": "Backgrounds",
+    "Label.GetThisItemWithAnAgeCheck": "Get this item with an age check. {linkStart}Terms apply.{linkEnd}",
+    "Message.AgeCheckCompleteInventory": "Age check complete. {itemName} will be in your inventory soon.",
+    "Label.AgeCheckComplete": "Age check complete, get your free item",
+    "Label.GetThisItemWithAnAgeCheckNoLink": "Get this item with an age check.",
+    "Label.FreeItemWithAnAgeCheck": "Free item with an age check",
+    "Action.Unlock": "Unlock",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Catalog");

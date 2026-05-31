@@ -183,7 +183,7 @@ Roblox.LangDynamic["Feature.Profile"] = {
     "Error.FailedToJoinExperience": "Failed to join experience. Please try again.",
     "Action.SignUpToAddConnection": "Sign up to add",
     "Action.LogInToAddConnection": "Log in to add",
-    "Message.SendConnectionRequestError": "Unable to send connection request.",
+    "Message.SendConnectionRequestError": "Unable to send friend request.",
     "Heading.ProfileCompletion": "Complete your profile",
     "Title.AgeCheck": "Get an age check",
     "Description.AgeCheck": "This allows you to chat safely. It only takes a moment.",
@@ -208,5 +208,6 @@ Roblox.LangDynamic["Feature.Profile"] = {
     ReportAbuse: "Report abuse",
     "Action.ReportAbuse": "Report abuse",
     "Label.UserIsPlayingExperience": "<b>{userName}</b> is playing <b>{experienceName}</b>",
+    "Action.SendRobux": "Send Robux",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Profile");
