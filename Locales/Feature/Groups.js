@@ -1190,5 +1190,8 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Label.RoleRestrictedAgeGate": "Must be age verified 16+ to restrict categories",
     "Header.AddRoles": "Add Roles",
     "Description.AddRoles": "Only roles you assign to this category will be able to view it when the restrict toggle is enabled",
+    "Message.CreatedAnnouncement": '{actor} created an announcement "{title}"',
+    "Message.DeletedAnnouncement": '{actor} deleted an announcement "{title}"',
+    "Description.RoleRestrictedCategory": "This a role restricted category",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");

@@ -517,5 +517,6 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Label.GetThisItemWithAnAgeCheckNoLink": "Get this item with an age check.",
     "Label.FreeItemWithAnAgeCheck": "Free item with an age check",
     "Action.Unlock": "Unlock",
+    "Title.Checkout.OfferFailedToFetch": "Failed to fetch available offers, please try again later.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Catalog");

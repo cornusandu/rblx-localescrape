@@ -2012,6 +2012,9 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
     "Label.RequestAccountDataConfirmation": "Request account data",
     "Label.RequestAccountDataReceived": "We're processing your request",
     "Description.RequestAccountDataReceived": "You'll receive an email when your data is ready.",
+    "Description.ShareActivityUpdatesV3": "Allow friends to receive updates about your recent activity on Roblox. {LinkStart}View details{LinkEnd}",
+    "Description.ParentSide.ShareActivityUpdatesV3":
+        "Allow your child's friends to receive updates about their recent activity on Roblox. {LinkStart}View details{LinkEnd}",
     "Heading.ShareActivityUpdatesSetting": "Share activity updates setting",
     "Label.ShareActivityUpdatesSetting": "share activity updates setting",
     "Description.ConfirmRevokeExperience": "Your child may still be able to play this game if their content maturity setting allows it.",

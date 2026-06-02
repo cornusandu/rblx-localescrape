@@ -47,5 +47,6 @@ Roblox.LangDynamic["AccountIdentity.AgeCheck"] = {
         "Confirming you're under 13 may remove your account email and phone number. Identity verification is operated by our third party service provider.",
     "Description.AgeEstimationToFive": "Your age will be set by default to 5 years old on {Date}.",
     "Label.AgeGroup5Estimated": "We couldn't check your age",
+    "Label.CompleteNewAgeCheckIdRequired": "Your age check isn't valid. Verify your age with an ID to access more features.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_AccountIdentity.AgeCheck");
