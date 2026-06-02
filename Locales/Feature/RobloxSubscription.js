@@ -152,5 +152,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.Benefit.RobuxStipend": "{amount} Robux every {periodType, select, Day {day} Week {week} Month {month} Year {year} other {periodType} }",
     "Description.BannerTitle": "Roblox Plus anniversary gift drops July 31",
     "Description.BannerBody": "Keep your Plus subscription active to unbox an exclusive collectible inspired by classic Roblox gifts.",
+    "Title.AgeCheckTrial": "Get one free week of Plus",
+    "Description.AgeCheckTrial": "Complete an age check to unlock Plus benefits and access features appropriate for your age.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");
