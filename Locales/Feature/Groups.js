@@ -1193,5 +1193,8 @@ Roblox.LangDynamic["Feature.Groups"] = {
     "Message.CreatedAnnouncement": '{actor} created an announcement "{title}"',
     "Message.DeletedAnnouncement": '{actor} deleted an announcement "{title}"',
     "Description.RoleRestrictedCategory": "This a role restricted category",
+    "Description.AgeRestrictedCategoryIneligible": "Your account does not meet the minimum age requirement for this category.",
+    "Heading.AgeRestrictedCategory": "Restricted access",
+    "Description.AgeRestrictedCategoryEligible": "This category is marked as age restricted. Do you wish to proceed?",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Groups");
