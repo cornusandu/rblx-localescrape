@@ -179,5 +179,8 @@ Roblox.LangDynamic["Feature.VerificationUpsell"] = {
     ModalTitleV2: "Stay in the game",
     ModalTitleV3: "Take action now",
     BannerBody: "Let’s check your age to see what you can still play.",
+    SafetyBannerTitlePRE: "Access to games changes soon",
+    SafetyBannerBodyv3: "Get a secure age check now.",
+    SlimBannerBody: "Access to games changes soon. Get a secure age check now.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.VerificationUpsell");
