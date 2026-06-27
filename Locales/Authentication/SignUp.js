@@ -191,7 +191,7 @@ Roblox.LangDynamic["Authentication.SignUp"] = {
     "Description.RobloxNotAvailableInRegion": "Roblox is temporarily unavailable in your region.",
     "Header.CreatePasskey": "Hey {username}, create a passkey",
     "Description.SelectBirthdateExpT1":
-        "Start by entering your birthday. Later, you’ll need to verify this birthday with a government ID or credit card to confirm you’re an adult.",
+        "Start by entering your birthday. Later, to confirm you’re an adult, you’ll need to verify this birthday with a government ID, credit card, or by camera depending on your region.",
     "Description.VerificationLinkingText.VariableButtonName":
         "Your Roblox account will be linked to your account on {platform}. You can unlink from the Settings screen at any time. There may be a cool down before being able to link to another account on {platform}. By clicking {ctaButton}, you are agreeing to the Terms of Use including the arbitration clause and you are acknowledging the Privacy Policy.",
     "Description.ConsentClause.FullCopy":

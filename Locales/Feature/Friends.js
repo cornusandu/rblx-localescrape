@@ -196,5 +196,7 @@ Roblox.LangDynamic["Feature.Friends"] = {
     "Label.FriendsHintBold": "Let’s play!",
     "Label.FriendsHintPlain": "Start by adding a friend.",
     "Description.TrustedFriendsRequestModalBody": "Only add people you know and trust. Manage this friend anytime from their profile.",
+    "Description.NotAFriend": "Not a friend",
+    "Description.NoMutualFriends": "No mutual friends",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Friends");

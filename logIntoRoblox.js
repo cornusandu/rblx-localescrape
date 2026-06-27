@@ -13,9 +13,6 @@ const puppeteer = require('puppeteer');
 		waitUntil: 'networkidle2',
 	});
 
-	console.log(typeof token, token.length);
-	console.log(token.includes(';'));
-
 	//await page.setCookie({
 	//	name: '.ROBLOSECURITY',
 	//	value: String(token),

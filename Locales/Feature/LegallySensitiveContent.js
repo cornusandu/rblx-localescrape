@@ -27,6 +27,17 @@ Roblox.LangDynamic["Feature.LegallySensitiveContent"] = {
     "Description.LSC.ChooseNotificationTypes": "Choose what type of notifications you get.",
     "Label.LSC.EmailChannelLabel": "Email",
     "Description.LSC.TurnOnEmail": "Turn on email notifications",
+    "Title.FriendsChatTextChat": "Text chat",
+    "Description.PartyVoiceChat_V2": "Talk to your friends when you’re in the same Party",
+    "Heading.ChatAndPartyWithFriends": "Chat and Party with friends",
+    "Description.ManagePartyAndCommunications": "Manage who can add you to a Party and communicate with you.",
+    "Description.PartyJoinGamesTogether": "Join games together.",
+    "Description.FriendsChatTextWithFriends": "Text with friends.",
+    "Title.PartyVoiceChat": "Party voice chat",
+    "Heading.FriendsChat": "Friends chat",
+    "Description.FriendsChat": "Text chat with friends. This does not impact public chatting in games.",
+    "Heading.VoiceChatWithFriends": "Voice chat with friends",
+    "Description.VoiceChatWithFriends": "Talk to your friends when you’re in the same Party. This does not impact public voice chatting in games.",
 };
 window.Roblox &&
     window.Roblox.BundleDetector &&

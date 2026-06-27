@@ -87,5 +87,8 @@ Roblox.LangDynamic["Common.GameSorts"] = {
         "Top experiences sorted by the number of concurrent users. Player count shown are based on selected device and location filters.",
     "Label.BlendedSerpPeopleAlsoJoin": "People Also Join",
     "Faq.Title": "Frequently Asked Questions",
+    "Title.CohortCCUCoachmark": "Viewing active user counts",
+    "Description.CohortCCUCoachmark":
+        "Active user counts are based on your current filters. To view all active users, set your filters to 'All devices' and 'All locations'",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Common.GameSorts");

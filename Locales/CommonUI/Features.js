@@ -122,7 +122,16 @@ Roblox.LangDynamic["CommonUI.Features"] = {
     "Label.AddFriends": "Add Friends",
     "Label.Games": "Games",
     "Label.RobloxPlus": "Roblox Plus",
-    "Label.SupportCenter": "Support Center",
+    "Label.SupportCenter": "Experience Support History",
+    "Label.Unchecked": "Unchecked",
     "Label.SupportCenterSub": "View and manage your support tickets",
+    "Label.Moments": "Moments",
+    "Label.CatalogMarketplaceAvatarStore": "Shop Roblox Catalog, Marketplace & Avatar Store",
+    "Label.sRobuxBalance": "Robux: {robuxAmount}",
+    "Label.sNotificationsCount": "Notifications: {notificationCount}",
+    "Label.sNotifications": "Notifications",
+    "Label.sSettings": "Settings",
+    "Label.sSettingsNotifications": "Settings: {notificationCount}",
+    "Actions.GetPlus": "Get Plus",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_CommonUI.Features");

@@ -220,7 +220,7 @@ Roblox.LangDynamic["Notifications.Preferences"] = {
     "Description.NotificationTypeAvatarContentOffsaleWarning": "Warnings about my avatar content being taken off-sale due to missing Premium subscription",
     "Description.UnsubscribeFromAvatarContentOffsaleWarning":
         "Stop notifying me about my avatar content being taken off-sale due to missing Premium subscription",
-    "Description.NotificationTypeAnalyticsAlert": "User received an alert notification. Configure in {linkStart}Alerts.{linkEnd}.",
+    "Description.NotificationTypeAnalyticsAlert": "User received an alert notification. Configure in {linkStart}Alerts{linkEnd}.",
     "Label.CategoryCustomAlerts": "Custom Alerts",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Notifications.Preferences");

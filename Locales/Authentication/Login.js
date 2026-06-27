@@ -176,5 +176,6 @@ Roblox.LangDynamic["Authentication.Login"] = {
     "Authentication.Login.Response.NoLoginMethods": "No sign-in methods are available for this account. Please try account recovery or contact support.",
     "Response.NoLoginMethods": "No sign-in methods are available for this account. Please try account recovery or contact support.",
     "Response.EnterEmailForLoginCode": "To sign in, please enter your email address instead",
+    "Title.NewPlaceVersionLiveErrorReportBanner": "{placeName}: V{versionNumber} is live.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Authentication.Login");

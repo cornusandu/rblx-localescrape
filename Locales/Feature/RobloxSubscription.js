@@ -54,11 +54,11 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Action.TryItForFree": "Try it for free",
     "Label.BlackbirdVTDiscountSecond": "{discountPercent}% off these items after {periodIndex} {periodType}",
     "Label.BlackbirdTr": "Send Robux for free",
-    "Label.BlackbirdFPS": "Free and unlimited private servers",
+    "Label.BlackbirdFPS": "Free private servers",
     "Label.BlackbirdUpsellBanner": "Get {discountPercentage}% off with Roblox Plus",
     "Label.BlackbirdPriceTag": "{price}/{periodType}",
     "Label.FreeTrialText": "Get free trial",
-    "Label.BlackbirdPSDiscount": "Free and unlimited private servers",
+    "Label.BlackbirdPSDiscount": "Free private servers",
     "Title.GenericError": "Something went wrong",
     "Title.AlreadySubscribed": "Good news",
     "Body.AlreadySubscribed": "Your Plus subscription already provides in-game benefits.",
@@ -76,7 +76,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.Benefit.RobuxTransfersSubtitle": "Transfers may need parental approval",
     "Description.Benefit.TradeResellItemsSubtitle": "Build your collection of rare avatars",
     "Description.Benefit.PublishItemsSubtitle": "Reach millions of players",
-    "Description.Benefit.PrivateServers": "Free and unlimited private servers",
+    "Description.Benefit.PrivateServers": "Free private servers",
     "Description.Benefit.PrivateServersSubtitle": "Choose who you play with",
     "Title.PurchasePromoHeadline": "Our best deal.\u2028Unlock 20% off.",
     "Disclosure.BlackbirdAgreementV2":
@@ -126,8 +126,7 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.Benefit.DiscountNextExpandedBody":
         "Keep your subscription for 2 full months and your discount jumps to 20%, so your Robux go even further on the same items starting in month 3.",
     "Description.Benefit.PrivateServersExpandedTitle": "Free private servers",
-    "Description.Benefit.PrivateServersExpandedBody":
-        "Create as many private servers as you want so you can play only with friends across supported games at no extra cost.",
+    "Description.Benefit.PrivateServersExpandedBody": "Create private servers so you can play only with friends across supported games at no extra cost.",
     "Description.Benefit.RobuxTransfersExpandedTitle": "Free Robux Transfers",
     "Description.Benefit.RobuxTransfersExpandedBody":
         "Instantly transfer Robux to other users without paying any fees on either side. To help keep transfers safe, there are transfer limits of up to 1000 Robux a month - which are subject to change. Additionally parent or caregiver approval is required every time users under 18 send or receive Robux.",
@@ -154,5 +153,23 @@ Roblox.LangDynamic["Feature.RobloxSubscription"] = {
     "Description.BannerBody": "Keep your Plus subscription active to unbox an exclusive collectible inspired by classic Roblox gifts.",
     "Title.AgeCheckTrial": "Get one free week of Plus",
     "Description.AgeCheckTrial": "Complete an age check to unlock Plus benefits and access features appropriate for your age.",
+    "Title.FreeTrialExpired": "Plus free trial has expired",
+    "Description.FreeTrialExpired": "Subscribe to Roblox Plus to keep your benefits starting at only $4.99/ month",
+    "Description.FreeTrialConfirmation":
+        "You have unlocked the following Plus benefits. Your trial will automatically expire after 7 days, add a credit card to keep benefits.",
+    "Title.FreeTrialConfirmation": "Enjoy one week of Plus",
+    "Action.ViewDetails": "View details",
+    "Description.FeatureAccessDisclaimer": "Access to features depends on your account settings and region.",
+    "Header.FreeTrialBannerTitle": "You're on a free trial. Enjoy all Plus benefits at no cost!",
+    "Subtext.FreeTrialBanner": "You'll be able to subscribe once the trial ends on {date}.",
+    "Subtext.FreeTrialBannerFallback": "You'll be able to subscribe once the trial ends.",
+    "Header.PlusPackages": "Plus packages",
+    "Description.Benefit.InstantDiscount": "10% off instantly",
+    "Description.Benefit.InstantDiscountSubtitle": "On everything you buy",
+    "Description.Benefit.OngoingDiscount": "20% off after 2 months",
+    "Description.Benefit.OngoingDiscountSubtitle": "Stay subscribed to save more",
+    "Description.Benefit.RobuxTransfersDisclaimer": "Parent approval may be required",
+    "Label.SubscriptionDuration":
+        "{periodType, select, Month {{periodCount, plural, =1 {{periodCount} month} other {{periodCount} months}}} Week {{periodCount, plural, =1 {{periodCount} week} other {{periodCount} weeks}}} Year {{periodCount, plural, =1 {{periodCount} year} other {{periodCount} years}}} other {{periodCount, plural, one {{periodCount} {periodType}} other {{periodCount} {periodType}s}}} }",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.RobloxSubscription");

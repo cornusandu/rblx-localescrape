@@ -411,5 +411,10 @@ Roblox.LangDynamic["Feature.NotApproved"] = {
         "Your experience name or experience description was found to be inappropriate. Both have been changed to a placeholder. You can create a new name and description in Creator Hub or Studio.",
     "Action.LogOut": "Log out",
     "Description.AppealViaSupport": "To appeal this decision, {link}contact support.{linkEnd}",
+    "Title.AvatarBrokeRules": "Your avatar broke the rules",
+    "Description.AvatarBrokeRules":
+        "Please change your avatar. Soon, players with avatars that break our Community Standards will be suspended from this game.",
+    "Heading.OneDaySuspension": "1-day suspension",
+    "Heading.VariableDaySuspension": "{number}-day suspension",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.NotApproved");

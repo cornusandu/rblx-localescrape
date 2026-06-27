@@ -133,5 +133,11 @@ Roblox.LangDynamic["Feature.Subscription"] = {
     "Footer.PurchasePromptToUDisclaimer":
         'By clicking "Subscribe", you agree to the Terms of Use. You will be automatically charged each month and can cancel at any time.',
     "Label.PlusBenefitDiscount": "Plus Benefit ({discountPercentage}% off)",
+    "Email.QuarterlyLabel": "quarterly",
+    "Email.PricePerQuarterLabel": "{purchasePrice}/3 months",
+    "Email.PricePerSemiannualLabel": "{purchasePrice}/6 months",
+    "Email.SemiannuallyLabel": "semiannually",
+    "Label.Subscriptions.PerThreeMonths": "/3 months",
+    "Label.Subscriptions.PerSixMonths": "/6 months",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Subscription");
