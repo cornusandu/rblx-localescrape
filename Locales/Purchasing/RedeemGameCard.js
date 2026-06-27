@@ -190,5 +190,6 @@ Roblox.LangDynamic["Purchasing.RedeemGameCard"] = {
     "Action.ScanGiftCard.RetakePhoto": "Retake photo",
     "Action.ScanGiftCard.TryScanToRedeem": "Try scan to redeem",
     "Label.ScanGiftCard.ScanYourCode": "Scan your code",
+    "Message.UseBalanceToSubscribeToPlus": "Use your available balance to subscribe to Plus. Choose a longer plan to save more.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Purchasing.RedeemGameCard");

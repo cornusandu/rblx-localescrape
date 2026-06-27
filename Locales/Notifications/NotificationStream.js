@@ -277,6 +277,10 @@ Roblox.LangDynamic["Notifications.NotificationStream"] = {
     "VoiceCapturesUpdate.Title": "Update to voice chat",
     "VoiceCapturesUpdate.Body":
         "You can now chat with people in similar age groups and your trusted friends. Voice captured in experience may be shared by others.",
+    "Description.CreatorStoreAssetContentScrubbed":
+        "Your asset on Creator Store contains violative text flagged by our text filter. Please rename your asset appropriately.",
+    "Heading.CreatorStoreAssetContentScrubbed": "Creator Store Asset Content Scrubbed",
+    "Action.Reject": "Reject",
 };
 window.Roblox &&
     window.Roblox.BundleDetector &&

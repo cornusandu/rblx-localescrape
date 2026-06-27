@@ -41,8 +41,12 @@ Roblox.LangDynamic["Feature.ExperienceDetails"] = {
     "Notes.InExperiencePurchase":
         "There may be an option to purchase items that may be exchanged for other items or functions with Robux (“in-experience tokens”) in-experience tokens are solely to enjoy the experience, cannot be used outside the experience and do not constitute prepaid payment instruments.  Your purchase of in-experience tokens is final and no refunds will be made in any case.  Other items and functions that may be exchanged for in-experience tokens may be changed as required at the creator’s discretion.",
     "PlayButtonMessage.AgreeToNotice": "I agree to the notes by playing this experience",
+    "Action.FullScreen": "Fullscreen",
+    "Action.ExitFullScreen": "Exit Fullscreen",
     "PlayButtonText.Unlock": "Unlock",
     "AskYourParentToAllowGameModal.Label.Body": "You need parent permission to join this game.",
     "UnplayableError.ContextualPlayabilityRequireParentApproval": "Ask your parent to unlock this game for you.",
+    "PlayButtonText.PlayDemo": "Play Demo",
+    "PlayButtonText.Play": "Play",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.ExperienceDetails");

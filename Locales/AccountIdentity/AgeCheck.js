@@ -48,6 +48,7 @@ Roblox.LangDynamic["AccountIdentity.AgeCheck"] = {
     "Description.AgeEstimationToFive": "Your age will be set by default to 5 years old on {Date}.",
     "Label.AgeGroup5Estimated": "We couldn't check your age",
     "Label.CompleteNewAgeCheckIdRequired": "Your age check isn't valid. Verify your age with an ID to access more features.",
+    "Description.CompleteNewAgeCheckIdRequired": "Your age check isn't valid. Verify your age with an ID to access more features.",
     "Heading.IDReverificationRequired": "Use an ID to verify your age",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_AccountIdentity.AgeCheck");

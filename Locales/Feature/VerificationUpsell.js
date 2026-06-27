@@ -182,5 +182,11 @@ Roblox.LangDynamic["Feature.VerificationUpsell"] = {
     SafetyBannerTitlePRE: "Access to games changes soon",
     SafetyBannerBodyv3: "Get a secure age check now.",
     SlimBannerBody: "Access to games changes soon. Get a secure age check now.",
+    DialogBodyPreCutoff: "You’ll soon need an age check to unlock more games.",
+    BannerTitlePostCutControl: "Access to games has changed",
+    BannerBodyPostCutControl: "Unlock more with a secure age check.",
+    BannerTitlePostCutTreatment: "Unlock more games and chat",
+    BannerBodyPostCutT1: "Let's check your age now. Your data stays secure.",
+    BannerBodyPostCutT2: "Get a secure age check now.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.VerificationUpsell");

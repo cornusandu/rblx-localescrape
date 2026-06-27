@@ -30,5 +30,13 @@ Roblox.LangDynamic["Feature.PersonalizedBonus"] = {
     "Heading.ExclusiveAvatarItemIncluded": "Exclusive avatar item included",
     "Description.LordOfTheBuxeration": "Lord of the Buxeration",
     "Heading.ExclusiveBonusItemDrop": "Exclusive bonus item drop",
+    "Description.67Necklace": "Bling 67 Necklace",
+    "Description.FracturedDominoCrown": "Fractured Domino Crown",
+    "Description.WingsOfThePactbreaker": "Wings of the Pactbreaker",
+    "Description.ArcaneFedora": "Arcane Fedora",
+    "Description.WingsOfTheSunAndMoon": "Wings of the Sun and Moon",
+    "Notification.Title.LimitedTimeAvatarItemBonus": "Limited-Time Avatar Item with Robux",
+    "Notification.Body.LimitedTimeAvatarItemBonus": "You received the {itemName}, check your inventory!",
+    "Notification.Action.TryOn": "Try on",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.PersonalizedBonus");

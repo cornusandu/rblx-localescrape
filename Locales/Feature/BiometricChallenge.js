@@ -6,5 +6,9 @@ Roblox.LangDynamic["Feature.BiometricChallenge"] = {
     "Action.Continue": "Continue",
     "Action.Cancel": "Cancel",
     "Content.Loading": "Loading...",
+    "Title.QRHandoff": "Confirm you’re human with the mobile app",
+    "Content.ScanQR": "Scan this QR code with your phone or tablet to unlock your account.",
+    "Content.QRHelpPrompt": "Not scanning?",
+    "Content.QRHelpFull": "{prompt} Download the Roblox app on your mobile device and retry from there.",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.BiometricChallenge");

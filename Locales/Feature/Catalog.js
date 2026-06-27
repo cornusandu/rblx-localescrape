@@ -176,6 +176,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Heading.Resellers": "Resellers",
     "Label.Characters": "Characters",
     "Label.Get": "Get",
+    "Action.Rent": "Rent",
     "Label.TShirt": "T-Shirt",
     "Label.Emote": "Emote",
     "Label.Clothing": "Clothing",
@@ -363,7 +364,7 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Message.HoldingPolicyL2":
         "After purchasing, original sales enter a hold for up to {purchaseDays} days. The item can only be resold after this holding period ends and resales will have a hold of up to {resaleDays} days. Only premium users can resell items.",
     "Message.HoldingPolicyL1":
-        "Purchases from resale will have a hold of up to {days} days. The item can only be resold after this holding period ends. Only premium users can resell items.",
+        "Purchases from resale will have a hold of up to {days} days. The item can only be resold after this holding period ends. Only Plus users can resell items.",
     "Label.Attribution": "Made In",
     "Label.InSingleExperience": "In Experience",
     "Label.SaveAsCharacter": "Save as a Character",
@@ -515,8 +516,16 @@ Roblox.LangDynamic["Feature.Catalog"] = {
     "Message.AgeCheckCompleteInventory": "Age check complete. {itemName} will be in your inventory soon.",
     "Label.AgeCheckComplete": "Age check complete, get your free item",
     "Label.GetThisItemWithAnAgeCheckNoLink": "Get this item with an age check.",
+    "Action.ViewTerms": "View terms",
     "Label.FreeItemWithAnAgeCheck": "Free item with an age check",
     "Action.Unlock": "Unlock",
     "Title.Checkout.OfferFailedToFetch": "Failed to fetch available offers, please try again later.",
+    "Title.Checkout.OfferFailedToUpdate": "Failed to toggle offer, please try again later.",
+    "Label.SaveOptions": "Save Options",
+    "Label.RentOptionInfo": "Try this item out for 3 days at a lower price. Your timer starts after purchase.",
+    "Label.RentOption": "Rent option",
+    "Title.RentalFtuxText": "Rent to try an item out for 3 days",
+    "Label.OfferApplied": "Offer Applied",
+    "Text.OfferAppliedToHighestItem": "Offer applied to highest item",
 };
 window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Catalog");
